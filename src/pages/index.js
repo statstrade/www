@@ -25,23 +25,21 @@ function Hero(){
           <p className="mb-8 mt-6 sm:mb-12 text-lg">Be your own Exchange with our Smart Contract Clearinghouse</p>
           <div
             className="flex flex-col lg:justify-start sm:flex-row sm:items-center sm:justify-center sm:space-x-4 sm:space-y-0 space-y-4">
-            <a
-              rel="noopener noreferrer"
-              href="/docs/intro"
-              className="btn btn-primary text-gray-900 font-semibold px-8 rounded text-md">Getting Started
-            </a>
-            <a
-              rel="noopener noreferrer"
-                href="https://testnet.statstrade.io"
-              className="btn border border-gray-100 font-semibold px-8 rounded text-md">Try our Demo
-            </a>
+              <a rel="noopener noreferrer"
+                 href="/docs/intro"
+                 className="btn btn-primary px-8 rounded text-md">Getting Started
+              </a>
+              <a rel="noopener noreferrer"
+                 href="https://testnet.statstrade.io"
+                 className="btn btn-outline  px-8 rounded text-md">Try our Demo
+              </a>
           </div>
         </div>
         <div
           className="2xl:h-128 flex h-72 items-center justify-center lg:h-96 lg:mt-0 mt-8 sm:h-80 rounded xl:h-112">
           <div className="avatar">
-            <div
-              className="w-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-10"><img src="exchange-raw.png"></img>
+            <div className="w-48 rounded-full ring ring-primary ring-offset-base-100 ring-offset-10">
+                <div style={{"height": "196px", "width": "196px"}} />
             </div>
           </div>
         </div>
@@ -49,46 +47,12 @@ function Hero(){
     </section>);
 }
 
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-function HomepageForceDark(){
-    const {colorMode, setColorMode} = useColorMode();
-    useEffect(
-        function () {
-            console.log(colorMode)
-            if (colorMode != "dark")
-                setColorMode("dark")
-        }
-    );
-    return (<div></div>);
-}
-
-
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title} | Markets on Blockchain`}
-      description="Description will go into a meta tag in <head />"
+      description="Create your own crypto markets."
     >
         
      <main>
