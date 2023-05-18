@@ -1,4 +1,4 @@
-{
+  {
   "openapi" : "3.0.0",
   "info" : {
     "version" : "1.0.0",
@@ -8,29 +8,52 @@
     }
   },
   "servers" : [ {
-    "url" : "http://www.statstrade.io/api"
+    "url" : "https://testnet.statstrade.io/api"
   } ],
   "paths" : {
     "/account/check-email-available" : {
       "post" : {
-        "summary" : "Check for email",
+          "summary" : "Check Email Available",
+          "description" : "Checks that an email is available",
         "operationId" : "check-email-available",
         "parameters" : [ {
           "in" : "header",
-          "name" : "Args",
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "array",
-                "items" : {
-                  "anyOf" : [ {
-                    "type" : "string"
-                  } ]
-                }
-              }
-            }
-          }
+            "name" : "Args",
+            "required" : true,
+            "content" : {
+              "application/json" : {
+                  "schema" : {
+                      "type" : "object",
+                      "properties" : {
+                          "0" : {"type" : "string",
+                                 "required" : true}
+                      },
+                      
+                  },
+              },    
+            },
+            "example"  : "[\"hello@test.com\"]"
         } ],
+          "requestBody" : {
+              "content" : {
+                 "application/json" : {
+              "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                      "0" : {"type" : "string",
+                             "description" : "User Email",
+                              "required" : true,
+                             "example"  : "hello@test.com"},
+                      "1" : {"type" : "string",
+                             "description" : "User Email",
+                              "required" : true,
+                              "example"  : "hello@test.com"}
+                  } 
+                },
+              }
+
+              }
+          },
         "responses" : {
           "200" : {
             "description" : "Expected response to a valid request"

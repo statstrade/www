@@ -39,11 +39,25 @@ const config = {
       }),
     ],
   ],
+    plugins: [// ....
+                  async function myPlugin(context, options) {
+                    return {
+                      name: "docusaurus-tailwindcss",
+                      configurePostCss(postcssOptions) {
+                        // Appends TailwindCSS and AutoPrefixer.
+                        postcssOptions.plugins.push(require("tailwindcss"));
+                        //postcssOptions.plugins.push(require("daisyui"));
+                        postcssOptions.plugins.push(require("autoprefixer"));
+                        return postcssOptions;
+                      },
+                    };
+                  },
+    ],
 
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
-    ({
-      navbar: {
+    ({navbar: {
+        style: "dark",
         title: "My Site",
         logo: {
           alt: "My Site Logo",
@@ -56,17 +70,17 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/api", label: "API", position: "left" },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
+          { to: "/api", label: "API", position: "left" }
+          /*{ to: "/blog", label: "Blog", position: "left" }*/
+          /*{
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
             position: "right",
-          },
+          }*/,
         ],
       },
       footer: {
-        style: "dark",
+        //style: "dark",
         links: [
           {
             title: "Docs",
@@ -114,6 +128,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode : {
+            defaultMode : 'dark',
+            disableSwitch: true, //false,
+            respectPrefersColorScheme: false
+            //disableSwitch : true
+      }
     }),
 };
 
