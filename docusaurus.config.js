@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo.svg",
+  favicon: "img/favicon.png",
   organizationName: "statstrade", // Usually your GitHub org/user name.
   projectName: "www", // Usually your repo name.
 
@@ -61,6 +61,10 @@ const config = {
         logo: {
           alt: "",
           src: "img/logo.svg",
+            style: {
+                "marginTop": -10,
+                "width": "150%",
+                "height": "150%"}
         },
         items: [
           {
@@ -72,7 +76,8 @@ const config = {
             { to: "/api", label: "API", position: "right" },
             { label: "Testnet", position: "right",
               to: "https://testnet.statstrade.io",
-              className: "btn btn-primary navbar-sidebar-hide"}
+              className: "btn btn-primary navbar-sidebar-hide py-1",
+              style: {"fontFamily": "Impact", "marginLeft": 20}}
           /*{ to: "/blog", label: "Blog", position: "left" }*/
           /*{
             href: "https://github.com/facebook/docusaurus",

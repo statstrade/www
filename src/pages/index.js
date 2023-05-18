@@ -28,12 +28,12 @@ function Hero(){
             <a
               rel="noopener noreferrer"
               href="/docs/intro"
-              className="btn btn-primary text-gray-900 font-semibold px-8 rounded text-lg">Getting Started
+              className="btn btn-primary text-gray-900 font-semibold px-8 rounded text-md">Getting Started
             </a>
             <a
               rel="noopener noreferrer"
                 href="https://testnet.statstrade.io"
-              className="btn border border-gray-100 font-semibold px-8 rounded text-lg">Try our Testnet
+              className="btn border border-gray-100 font-semibold px-8 rounded text-md">Try our Demo
             </a>
           </div>
         </div>
@@ -87,13 +87,17 @@ export default function Home() {
     const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} | Markets on Blockchain`}
       description="Description will go into a meta tag in <head />"
     >
+        
+     <main>
         <Hero />
-      <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
 }
+
+/*
+  <HomepageFeatures />
+*/
