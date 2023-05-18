@@ -1,24 +1,21 @@
 {
   "My": {
-    "message": "My"
+    "message": "我的"
   },
   "Tokens": {
-    "message": "Tokens"
+    "message": "货币"
   },
   "Market": {
-    "message": "Market"
+    "message": "市场"
   },
   "Build your Custom Exchange with our Smart Contract Clearinghouse": {
-    "message": "Build your Custom Exchange with our Smart Contract Clearinghouse"
+    "message": "使用我们的智能合约清算中心构建您的定制交易所"
   },
   "Getting Started": {
-    "message": "Getting Started"
+    "message": "入门指南"
   },
   "Try our Demo": {
-    "message": "Try our Demo"
-  },
-  "\"Create your own crypto markets.\"": {
-    "message": "\"Create your own crypto markets.\""
+    "message": "试用我们的演示"
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -290,5 +287,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Create your own crypto markets": {
+    "message": "创建您自己的加密货币市场"
+  },
+  "Markets on Blockchain": {
+    "message": "区块链上的市场"
   }
 }

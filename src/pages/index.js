@@ -62,11 +62,13 @@ function Hero(){
 }
 
 export default function Home() {
-    const { siteConfig } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
+  const desc=translate({message: "Create your own crypto markets"})
+  const suffix=translate({message: "Markets on Blockchain"})  
   return (
     <Layout
-      title={`${siteConfig.title} | Markets on Blockchain`}
-      description=<Translate>"Create your own crypto markets."</Translate>
+        title={`${siteConfig.title} | ${suffix}`}
+      description={desc}
     >
      <main>
         <Hero />

@@ -1,6 +1,6 @@
 {
   "item.label.Guides": {
-    "message": "指南",
+    "message": "מדריכים",
     "description": "Navbar item with label Guides"
   },
   "item.label.API": {
@@ -8,7 +8,7 @@
     "description": "Navbar item with label API"
   },
   "item.label.Testnet": {
-    "message": "测试网络",
+    "message": "רשת בדיקות",
     "description": "Navbar item with label Testnet"
   }
 }

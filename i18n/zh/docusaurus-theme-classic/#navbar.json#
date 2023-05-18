@@ -1,14 +1,14 @@
 {
   "item.label.Guides": {
     "message": "文档",
-    "description": " "
+    "description": "Navbar item with label Guides"
   },
   "item.label.API": {
     "message": "API",
-    "description": " "
+    "description": "Navbar item with label API"
   },
   "item.label.Testnet": {
     "message": "Testnet",
-    "description": " "
+    "description": "Navbar item with label Testnet"
   }
 }

@@ -56,7 +56,7 @@ const config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "zh"],
+    locales: ["en", "he", "zh"],
   },
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
