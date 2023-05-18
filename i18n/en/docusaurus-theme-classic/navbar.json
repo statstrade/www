@@ -1,0 +1,14 @@
+{
+  "item.label.Guides": {
+    "message": "文档",
+    "description": ""
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": ""
+  },
+  "item.label.Testnet": {
+    "message": "Testnet",
+    "description": ""
+  }
+}

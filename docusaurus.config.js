@@ -54,6 +54,10 @@ const config = {
                   },
     ],
 
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh"],
+  },
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({navbar: {
@@ -67,23 +71,27 @@ const config = {
                 "height": "150%"}
         },
         items: [
+            { type: 'localeDropdown', position: 'left',
+              style: {width: "100px"}},
           {
             type: "doc",
             docId: "intro",
             position: "right",
             label: "Guides"
           },
-            { to: "/api", label: "API", position: "right" },
-            { label: "Testnet", position: "right",
-              to: "https://testnet.statstrade.io",
-              className: "btn btn-primary navbar-sidebar-hide py-1",
-              style: {"fontFamily": "Impact", "marginLeft": 20}}
+          { to: "/api", label: "API", position: "right" },
+            
+          { label: "Testnet", position: "right",
+            to: "https://testnet.statstrade.io",
+            className: "btn btn-primary navbar-sidebar-hide py-1",
+            style: {"fontFamily": "Impact", "marginLeft": 20}}
+            
           /*{ to: "/blog", label: "Blog", position: "left" }*/
           /*{
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
             position: "right",
-          }*/,
+          }*/
         ],
       },
       footer: {

@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import {useColorMode} from '@docusaurus/theme-common';
+import Translate, {translate} from '@docusaurus/Translate';
 
 // wwwsite.landing-index/Hero [152] 
 function Hero(){
@@ -16,22 +17,35 @@ function Hero(){
         <div
           className="flex flex-col justify-center lg:max-w-md lg:text-left p-6 rounded-sm text-center xl:max-w-lg">
           <h1 className="font-bold leading-none sm:text-6xl text-5xl">
-            <span className="text-primary">Your </span>
-             Tokens.
+              <span className="text-primary"><Translate>My</Translate></span>
+              <span className="text-primary"> </span>
+             <Translate>Tokens</Translate>.
             <br></br>
-            Your 
-            <span className="text-primary"> Market.</span>
+              <Translate>My</Translate>
+              <span className="text-primary"> </span>
+              <span className="text-primary"><Translate>Market</Translate></span>
+              <span className="text-primary">.</span>
           </h1>
-          <p className="mb-8 mt-6 sm:mb-12 text-lg">Be your own Exchange with our Smart Contract Clearinghouse</p>
+            <p className="mb-8 mt-6 sm:mb-12 text-lg">
+                <Translate>
+                    Build your Custom Exchange with our Smart Contract Clearinghouse
+                </Translate>
+                </p>
           <div
             className="flex flex-col lg:justify-start sm:flex-row sm:items-center sm:justify-center sm:space-x-4 sm:space-y-0 space-y-4">
               <a rel="noopener noreferrer"
                  href="/docs/intro"
-                 className="btn btn-primary px-8 rounded text-md">Getting Started
+                 className="btn btn-primary px-8 rounded text-md">
+                  <Translate>
+                      Getting Started
+                  </Translate>
               </a>
               <a rel="noopener noreferrer"
                  href="https://testnet.statstrade.io"
-                 className="btn btn-outline  px-8 rounded text-md">Try our Demo
+                 className="btn btn-outline  px-8 rounded text-md">
+                  <Translate>
+                      Try our Demo
+                  </Translate>
               </a>
           </div>
         </div>
@@ -52,9 +66,8 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} | Markets on Blockchain`}
-      description="Create your own crypto markets."
+      description=<Translate>"Create your own crypto markets."</Translate>
     >
-        
      <main>
         <Hero />
       </main>
