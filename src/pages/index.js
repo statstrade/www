@@ -27,13 +27,13 @@ function Hero(){
             className="flex flex-col lg:justify-start sm:flex-row sm:items-center sm:justify-center sm:space-x-4 sm:space-y-0 space-y-4">
             <a
               rel="noopener noreferrer"
-              href="#"
-              className="btn btn-primary text-gray-900 font-semibold px-8 rounded text-lg">Contact Us
+              href="/docs/intro"
+              className="btn btn-primary text-gray-900 font-semibold px-8 rounded text-lg">Getting Started
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
-              className="btn border border-gray-100 font-semibold px-8 rounded text-lg">Demo
+                href="https://testnet.statstrade.io"
+              className="btn border border-gray-100 font-semibold px-8 rounded text-lg">Try our Testnet
             </a>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Hero(){
           className="2xl:h-128 flex h-72 items-center justify-center lg:h-96 lg:mt-0 mt-8 sm:h-80 rounded xl:h-112">
           <div className="avatar">
             <div
-              className="w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-10"><img src="exchange-raw.png"></img>
+              className="w-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-10"><img src="exchange-raw.png"></img>
             </div>
           </div>
         </div>

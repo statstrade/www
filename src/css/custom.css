@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -17,7 +19,14 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 95%; 
+  /*--ifm-font-family-monospace: "JetBrains Mono Regular";*/
+  --ifm-font-family-base: "Lato";
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -29,4 +38,8 @@
 
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-sidebar .navbar-sidebar-hide {
+  visibility: hidden;
 }

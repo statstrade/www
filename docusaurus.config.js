@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Statstrade",
+  tagline: "Build on Blockchain",
+  url: "https://www.statstrade.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/logo.svg",
+  organizationName: "statstrade", // Usually your GitHub org/user name.
+  projectName: "www", // Usually your repo name.
 
   presets: [
     [
@@ -57,20 +57,22 @@ const config = {
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({navbar: {
-        style: "dark",
-        title: "My Site",
+        title: "",
         logo: {
-          alt: "My Site Logo",
+          alt: "",
           src: "img/logo.svg",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
-            position: "left",
-            label: "Tutorial",
+            position: "right",
+            label: "Guides"
           },
-          { to: "/api", label: "API", position: "left" }
+            { to: "/api", label: "API", position: "right" },
+            { label: "Testnet", position: "right",
+              to: "https://testnet.statstrade.io",
+              className: "btn btn-primary navbar-sidebar-hide"}
           /*{ to: "/blog", label: "Blog", position: "left" }*/
           /*{
             href: "https://github.com/facebook/docusaurus",
@@ -80,21 +82,29 @@ const config = {
         ],
       },
       footer: {
-        //style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Links",
             items: [
               {
-                label: "Tutorial",
+                label: "Guide",
                 to: "/docs/intro",
+              },
+              {
+                label: "API Reference",
+                to: "/api",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
+          /*
           {
             title: "Community",
             items: [
-              {
+             {
                 label: "Stack Overflow",
                 href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
@@ -112,17 +122,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/statstrade/www",
+                href: "https://github.com/statstrade",
               },
             ],
-          },
+          },*/
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Tahto Group Co Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,

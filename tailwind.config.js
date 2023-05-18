@@ -1,6 +1,15 @@
 module.exports = {
   "mode":"jit",
   "content":["./src/**/*.{js,ts,jsx,tsx}"],
+    
+  theme: {
+    fontFamily: {
+      sans: [
+        'Lato',
+        'sans-serif',
+      ],
+    },
+  },
   "daisyui":{
     "styled":true,
     "rtl":false,
