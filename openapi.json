@@ -218,7 +218,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "802b818e-350e-4139-9077-30664ddc38b1"
                   },
@@ -355,7 +355,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -410,7 +410,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -465,7 +465,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -523,7 +523,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "35639174-d2a0-4557-bf87-59e55d0deb8a"
                   }
@@ -590,7 +590,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3c29243d-9f33-477e-9326-1a237cf54af6"
                   }
@@ -700,7 +700,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "50e8d66c-edf6-4550-aa9a-38e612a3f6ac"
                   },
@@ -789,7 +789,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "50e8d66c-edf6-4550-aa9a-38e612a3f6ac"
                   },
@@ -1058,7 +1058,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "50e8d66c-edf6-4550-aa9a-38e612a3f6ac"
                   },
@@ -1154,7 +1154,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "email" : {
                     "type" : "string"
@@ -1481,7 +1481,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   }
@@ -1538,7 +1538,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b560b169-512c-4c5e-b08a-61702c12c47e"
                   },
@@ -1632,7 +1632,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a875abeb-0fc4-44ca-a970-f4960a8bb650"
                   },
@@ -1731,7 +1731,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -1911,7 +1911,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b560b169-512c-4c5e-b08a-61702c12c47e"
                   },
@@ -2005,17 +2005,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8b870e29-a587-4640-ad7e-b96b117c16ec"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a35e654c-18d9-4c06-8617-330f8582b659"
                   },
                   "new_member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "15bcc1e2-cec9-45d1-bc08-a86385b0a284"
                   },
@@ -2121,12 +2121,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "582c452d-49ea-45dc-955c-eb5ab75cc312"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "90826846-25fb-4223-8b03-2fb8857db7c9"
                   }
@@ -2217,17 +2217,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "711da9e4-545f-4c7c-a528-29ea733913d3"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8d59f22a-7e32-4fd2-976e-d9f00b44807d"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "12f1f02d-e759-4da1-9c6f-e1c44d807709"
                   }
@@ -2349,17 +2349,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8dae7571-8b37-426d-b971-1ae09f687134"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a2289f6b-08c0-45aa-8150-4bc09c2db2f1"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9701015e-e8e8-4f64-af27-8323d0ffe647"
                   }
@@ -2436,17 +2436,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "18157b30-7b0b-41a6-b6dd-f74286f95683"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ab7ed03e-a9e0-48de-b7df-2988acc573f2"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "eaa6c91b-11c4-4b3d-8644-4af963a7c8f7"
                   }
@@ -2550,17 +2550,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "322a46be-05de-426b-a958-3a26b1d6ff3a"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "898c5f65-030f-4187-a453-cfb1cbf55e81"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e4bfd7d5-10f5-4931-9026-cca7b6f0f00a"
                   }
@@ -2639,17 +2639,17 @@
                 "type" : "object",
                 "properties" : {
                   "request_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "572d1467-ac4f-4871-8840-310644ed4773"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ca647693-fbc7-4078-8536-84756ed95f78"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6ced274e-11ef-421a-affe-32a4bad9bcb9"
                   }
@@ -2745,7 +2745,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8dae7571-8b37-426d-b971-1ae09f687134"
                   },
@@ -2763,7 +2763,7 @@
                         "example" : "Huawei"
                       },
                       "owner_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "8dae7571-8b37-426d-b971-1ae09f687134"
                       }
@@ -2867,17 +2867,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3ffd3472-bc1e-4613-b37a-1de222ac2e80"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b51acf1f-68c9-4459-a145-437ceec0426d"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f0d221ca-2049-4dde-adc7-c1e77f9a5c17"
                   }
@@ -2955,17 +2955,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ac95afe0-90ee-42a0-aea3-c58b757bcf7b"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00a1a9e6-d63e-4c25-ae19-51f20778e87d"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ed031653-a803-493d-8051-36c66dd385ed"
                   },
@@ -3038,12 +3038,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "15bcc1e2-cec9-45d1-bc08-a86385b0a284"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "332dc962-2ae1-47d6-ae9c-a6aabfb9b6a0"
                   }
@@ -3141,10 +3141,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "brand_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -3202,12 +3202,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ac95afe0-90ee-42a0-aea3-c58b757bcf7b"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00a1a9e6-d63e-4c25-ae19-51f20778e87d"
                   },
@@ -3310,10 +3310,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "brand_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -3368,17 +3368,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "dc8763e9-2fdf-4eb8-bca2-10bc2c9d93ba"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "019a5203-44d6-4bc0-9e2e-c5a427bcd89c"
                   },
                   "member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "15bcc1e2-cec9-45d1-bc08-a86385b0a284"
                   }
@@ -3476,12 +3476,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "582c452d-49ea-45dc-955c-eb5ab75cc312"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "90826846-25fb-4223-8b03-2fb8857db7c9"
                   }
@@ -3574,17 +3574,17 @@
                 "type" : "object",
                 "properties" : {
                   "swap_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "572d1467-ac4f-4871-8840-310644ed4773"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "83d31d15-894e-489d-a6c9-78a4dc4b7d48"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8e64d54e-ad69-4743-90de-b5842bb9a4dd"
                   }
@@ -3688,12 +3688,12 @@
                 "type" : "object",
                 "properties" : {
                   "brand_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9a2fcff4-36b5-430a-a84f-69a8614defd7"
                   },
                   "sponsorship_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9ece6093-f662-11ed-9b18-7df9fd3c030b"
                   },
@@ -3802,17 +3802,17 @@
                 "type" : "object",
                 "properties" : {
                   "topic_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "572d1467-ac4f-4871-8840-310644ed4773"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e565beba-0d73-4fd3-b11d-f8ae9c5c9c6f"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "026e5137-93be-49d1-9300-90d013a91e4d"
                   }
@@ -3916,12 +3916,12 @@
                 "type" : "object",
                 "properties" : {
                   "brand_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "511184ef-0afc-49ce-a159-c6f892d8a2e2"
                   },
                   "sponsorship_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9ece6077-f662-11ed-9b18-7df9fd3c030b"
                   },
@@ -4030,13 +4030,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "brand_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "new_owner_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -4091,17 +4091,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3ffd3472-bc1e-4613-b37a-1de222ac2e80"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b51acf1f-68c9-4459-a145-437ceec0426d"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f0d221ca-2049-4dde-adc7-c1e77f9a5c17"
                   }
@@ -4199,17 +4199,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3ffd3472-bc1e-4613-b37a-1de222ac2e80"
                   },
                   "brand_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b51acf1f-68c9-4459-a145-437ceec0426d"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f0d221ca-2049-4dde-adc7-c1e77f9a5c17"
                   }
@@ -4397,12 +4397,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "42c9d81c-1676-4314-be88-538d9842b939"
                   },
                   "group_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "31f5af26-8d17-4b2f-a64a-759daf608f96"
                   },
@@ -4502,12 +4502,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9356d583-3cd7-40de-a948-3e2a049acf74"
                   },
                   "group_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d5e62150-5b59-43af-8b66-e9c22d7e1e1d"
                   },
@@ -4642,12 +4642,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ca8810df-e695-4eeb-8963-ec4910e23cd1"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9100477e-e98d-4038-834c-b84d6ad688fc"
                   },
@@ -4736,12 +4736,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f4ae7e55-5cdb-464a-9313-fbbce02c9d8d"
                   },
                   "entity_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "cdeb92cb-862c-4e00-8ea1-e9c8c77bd90a"
                   },
@@ -4844,12 +4844,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a35e847d-18a3-4010-ab5f-14716361c20a"
                   },
                   "group_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9e4e4e61-00a2-447a-b2d1-625e38f76bb9"
                   },
@@ -4938,12 +4938,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "039f7137-629f-4c74-852e-a9c1e3385ea3"
                   },
                   "entity_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a445aa65-f018-4caa-8801-41c031795aa6"
                   },
@@ -5027,12 +5027,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "254dfa0a-a3bd-45c2-9d16-4ece5dc84eac"
                   },
                   "entity_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "cf8659ed-2d4c-4f7e-bb9a-a23f43fd70ea"
                   }
@@ -5126,17 +5126,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "7d7c928a-31ad-4593-bb29-032cf8335cb0"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d253aac6-d165-4e96-93f5-40c611071385"
                   },
                   "group_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9279a950-3073-44db-a7f3-0b0fba4be74b"
                   }
@@ -5217,12 +5217,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a2974516-d0cc-4373-8b8c-3214e7037ca6"
                   },
                   "playable_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c6e15d4b-99b1-4bf7-937c-7515c4602589"
                   },
@@ -5361,12 +5361,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "175cf51d-fa99-4d6e-8526-c132451ee2a6"
                   },
                   "action_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2cc5d62c-df31-4783-ae9a-27b212bf6d82"
                   },
@@ -5558,12 +5558,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "175cf51d-fa99-4d6e-8526-c132451ee2a6"
                   },
                   "action_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d527ffe6-9b0b-4ff8-a87f-7b79b4c5bf67"
                   },
@@ -5689,12 +5689,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "175cf51d-fa99-4d6e-8526-c132451ee2a6"
                   },
                   "action_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "25532a4c-613a-4135-8980-32623082fb66"
                   }
@@ -5775,12 +5775,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "175cf51d-fa99-4d6e-8526-c132451ee2a6"
                   },
                   "action_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "65304207-a307-4a57-95e1-b51b06be1904"
                   }
@@ -5861,7 +5861,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
@@ -5970,7 +5970,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
@@ -5993,7 +5993,7 @@
                         "example" : "ETH"
                       },
                       "template_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "bd15a5c2-a1f7-4b10-987d-0b86cbcfc43d"
                       },
@@ -6063,7 +6063,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
@@ -6153,7 +6153,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "04e91f39-f479-4d90-b563-ea3fec256808"
                   },
@@ -6221,7 +6221,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "04e91f39-f479-4d90-b563-ea3fec256808"
                   },
@@ -6305,7 +6305,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
@@ -6390,12 +6390,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
                   "contract_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "94d2e902-680a-48fd-97a9-b46bad5d6517"
                   }
@@ -6462,12 +6462,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fbddd770-4c90-45b4-8844-0d9aeaf1db51"
                   },
                   "contract_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "0b535a48-44eb-4510-a33f-67d70e3292b2"
                   }
@@ -6531,12 +6531,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "04e91f39-f479-4d90-b563-ea3fec256808"
                   },
                   "faucet_entry_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2ba1f844-967b-47ef-a7c8-5dddcc2ddeae"
                   }
@@ -6596,12 +6596,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "04e91f39-f479-4d90-b563-ea3fec256808"
                   },
                   "token_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5123e03c-8fc8-4415-9983-e60a7e3a9bd0"
                   }
@@ -6672,7 +6672,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "04e91f39-f479-4d90-b563-ea3fec256808"
                   },
@@ -6747,7 +6747,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "evm_id" : {
                     "type" : "string"
@@ -6800,10 +6800,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "token_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -6853,17 +6853,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "playable_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6e4c0242-54d2-4951-9173-1d43ec8a03d4"
                   },
                   "tx_action_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "717707cb-7f03-4368-951d-852d5a87ab86"
                   },
@@ -6998,17 +6998,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a2974516-d0cc-4373-8b8c-3214e7037ca6"
                   },
                   "playable_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d7d1cb3c-6934-42f2-86a0-13962f16f38d"
                   },
                   "withdraw_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "4e6502cd-18b0-4664-922b-efd0d11987e0"
                   }
@@ -7164,12 +7164,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a2974516-d0cc-4373-8b8c-3214e7037ca6"
                   },
                   "playable_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "380eb800-4ebd-48a8-9af5-33eaefc0f5f1"
                   },
@@ -7323,17 +7323,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a2974516-d0cc-4373-8b8c-3214e7037ca6"
                   },
                   "playable_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a119a685-4004-4c1c-93e7-0cfe4ed027b8"
                   },
                   "withdraw_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "226b0b78-d148-48cd-9bdf-2a0f34d7a2aa"
                   }
@@ -7465,12 +7465,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c00d703c-1911-474a-81ba-af7414ef1f57"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e5d5e858-9bc6-48e6-a06b-38b394ed6a5b"
                   },
@@ -7572,7 +7572,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "bd2c14bc-9bb1-474c-b86b-2145c3ee0526"
                   },
@@ -7658,12 +7658,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "cd43900f-f167-46f3-8f55-ed7d623858e3"
                   },
                   "api_key_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e407a5a0-fc98-40f4-b6f8-cefeae17b61f"
                   }
@@ -7740,17 +7740,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "813b1981-5a73-4b10-b91c-31b6bb21f9fc"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "42aba2de-ef9e-4147-a791-fe7a0c6b9ccc"
                   },
                   "site_app_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9a12ea14-336e-4b7f-80af-53888d0aa055"
                   }
@@ -7830,12 +7830,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "7463c78c-b490-4577-a872-36a22c05af21"
                   },
                   "api_key_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "10525fe3-7395-4f48-aa10-9f151dc6c9e0"
                   }
@@ -7912,12 +7912,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "36b680dd-b32a-44d8-a4e8-406a09c6e7f3"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "72b80a0b-6c00-4608-9e5f-ea7292098cbf"
                   },
@@ -8076,12 +8076,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "14422c1e-1484-437f-9ed3-3f9a1708e567"
                   },
@@ -8180,12 +8180,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "0abe9be9-c79e-4780-bb02-bcc0b2e243a1"
                   },
@@ -8284,12 +8284,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d527743f-42ed-4732-bbb8-0179b3d068c4"
                   },
@@ -8388,12 +8388,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "7662bfc8-37b7-4485-b20f-6737fee35484"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "72b80a0b-6c00-4608-9e5f-ea7292098cbf"
                   },
@@ -8492,12 +8492,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "14422c1e-1484-437f-9ed3-3f9a1708e567"
                   },
@@ -8596,12 +8596,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c962f983-f082-4451-abf0-bd29ed50848d"
                   },
@@ -8707,12 +8707,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -8818,12 +8818,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "337329cc-3e0c-41a9-bd8c-1f4fe2768052"
                   },
@@ -8929,12 +8929,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e6e2cd61-6a79-4b63-bf35-107d01a256c3"
                   },
@@ -9033,12 +9033,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e31e680d-496c-498e-87d4-725e0f02d50a"
                   },
@@ -9144,12 +9144,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "fb67d9da-4314-4dee-98aa-9d9181feba07"
                   },
@@ -9255,12 +9255,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -9366,12 +9366,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ec0e1601-7308-456b-aed6-ff37518fbf91"
                   },
@@ -9477,12 +9477,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -9607,12 +9607,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "989a6c66-841c-40fb-b0f2-4cce8331973b"
                   }
@@ -9694,12 +9694,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -9805,12 +9805,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "74fd9c95-c0ae-4b0f-bd80-50255647c8b6"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "69dda489-2df3-471f-9d13-2a8933a2c4c2"
                   },
@@ -9838,7 +9838,7 @@
                         }
                       },
                       "organisation_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "974ca5db-d6bb-4aaa-9acd-9d110c65e773"
                       },
@@ -10042,12 +10042,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c50913a9-aa28-4aa8-8965-8ee94db75893"
                   },
@@ -10188,10 +10188,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "topic_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -10246,10 +10246,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "topic_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "message" : {
                     "type" : "string"
@@ -10307,12 +10307,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b2f5969b-9fb1-4dac-8480-a6407b713794"
                   },
@@ -10476,7 +10476,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -10534,12 +10534,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "26bdafbc-663a-4c02-a842-99788e63aeae"
                   },
@@ -10654,12 +10654,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "992cfa50-39ea-4a1b-8cb0-de4dfd9c3460"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e8855947-a8e4-4588-960a-4af8c48d0cd1"
                   },
@@ -10780,12 +10780,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f4258b0f-fffa-4437-9510-c246a4b6c9fb"
                   },
@@ -10893,12 +10893,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "128ff217-fe48-4daa-9c33-3c21358daa88"
                   },
@@ -11006,12 +11006,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6663a109-6012-472a-a37d-77c6a6909ba5"
                   },
@@ -11119,12 +11119,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9e397aec-7317-4ffe-a630-43886cf2783d"
                   },
@@ -11230,12 +11230,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "992cfa50-39ea-4a1b-8cb0-de4dfd9c3460"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e8855947-a8e4-4588-960a-4af8c48d0cd1"
                   },
@@ -11343,12 +11343,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "40f203c8-2a0f-4805-95d9-2615d2cd144d"
                   },
@@ -11473,12 +11473,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b2536c0-3efc-40b7-91aa-56e425d31918"
                   },
@@ -11586,12 +11586,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "topic_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ab97921a-6549-4ff3-a4a2-f911d62e419e"
                   },
@@ -11706,12 +11706,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -11798,12 +11798,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "5b7c48e9-0dcc-49ba-9aa3-023d3b87a5eb"
                   },
@@ -12017,7 +12017,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2ae426ba-57bf-4194-a7fd-a47caf26aabb"
                   },
@@ -12095,7 +12095,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2ae426ba-57bf-4194-a7fd-a47caf26aabb"
                   },
@@ -12173,7 +12173,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2ae426ba-57bf-4194-a7fd-a47caf26aabb"
                   },
@@ -13135,7 +13135,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2ae426ba-57bf-4194-a7fd-a47caf26aabb"
                   },
@@ -13707,7 +13707,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e7559b56-c8f1-416a-8396-d92557ac0dd0"
                   },
@@ -13785,7 +13785,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e7559b56-c8f1-416a-8396-d92557ac0dd0"
                   },
@@ -13863,7 +13863,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e7559b56-c8f1-416a-8396-d92557ac0dd0"
                   },
@@ -14781,7 +14781,7 @@
                 "type" : "object",
                 "properties" : {
                   "book_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e7559b56-c8f1-416a-8396-d92557ac0dd0"
                   },
@@ -15067,7 +15067,7 @@
                 "type" : "object",
                 "properties" : {
                   "token" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "metadata" : {
                     "type" : "object"
@@ -15272,7 +15272,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "book" : {
                     "type" : "string"
@@ -15330,17 +15330,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3264f725-a92c-4d07-95d6-df878bfed6ee"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "96476463-6146-46e8-b2f5-ccc2c5b6cd28"
                   },
                   "order_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b7968547-f6b9-11ed-873f-55a0e413e850"
                   }
@@ -15453,17 +15453,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e51e94bc-12d5-40d7-ab65-2fd40efa5763"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "809bff63-4f5a-4212-b403-09335bc69d40"
                   },
                   "order_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "bc77519f-f6b9-11ed-873f-55a0e413e850"
                   }
@@ -15575,12 +15575,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b64a3a44-01d6-4806-968e-88ccf7498f0a"
                   },
                   "prospect_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9fc7aff6-0698-4edd-a736-8a24eccc0aac"
                   },
@@ -15748,12 +15748,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b0005ac6-321a-45c6-ae1e-f5075d68196d"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c2900567-6acd-499b-8f05-9244f39bff79"
                   },
@@ -15915,12 +15915,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "992cfa50-39ea-4a1b-8cb0-de4dfd9c3460"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "4096307b-39cc-43c1-bb38-700fdeed9e46"
                   },
@@ -16023,17 +16023,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "19f141ee-a821-455f-bc52-54fd744d8f77"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "71d54dff-f54f-4a2f-9337-0dceb157c0d0"
                   },
                   "new_member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1ea411af-4744-4356-80e2-5a3f7f6f8c5c"
                   },
@@ -16139,12 +16139,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "846b4e52-d39a-463d-a8fb-fdd91fe6e9e8"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1bdce9c9-9197-49ca-b424-63f5c26f05de"
                   },
@@ -16278,12 +16278,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "34408d5c-80f4-49bf-948e-bbf5c1f927ed"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "947d0647-ae94-4645-9b25-4a2b0fe85da0"
                   },
@@ -16381,12 +16381,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a76a3625-a0ae-433d-9307-9f843f94baa6"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "73fc53e3-8d51-4043-84d9-feacaf198fde"
                   }
@@ -16477,7 +16477,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -16535,12 +16535,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1ea411af-4744-4356-80e2-5a3f7f6f8c5c"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "90145591-499a-47bc-b0b2-898d41b95fec"
                   }
@@ -16638,10 +16638,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "organisation_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -16699,12 +16699,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a1ca7c56-a15f-44cc-b844-b420750bd66b"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e23009aa-ebb2-41e0-bb36-dd43627b0cd4"
                   }
@@ -16795,17 +16795,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "7c726a12-934e-4a97-9f9b-66100b7c9835"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ca755cb8-88bf-408e-bdae-3285c0c88515"
                   },
                   "buy_in_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "2cf9c78a-2d69-44fc-ac1b-b97622c526aa"
                   }
@@ -16886,17 +16886,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "507c0580-92be-4c60-bcda-8586f21e9e64"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "4bfa1e12-c189-411b-b361-df7bbe608589"
                   },
                   "member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1ea411af-4744-4356-80e2-5a3f7f6f8c5c"
                   }
@@ -16994,17 +16994,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "846b4e52-d39a-463d-a8fb-fdd91fe6e9e8"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1bdce9c9-9197-49ca-b424-63f5c26f05de"
                   },
                   "rake_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "9c9d0b2d-b42d-4e9b-b116-c868830cea6b"
                   }
@@ -17091,17 +17091,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "34408d5c-80f4-49bf-948e-bbf5c1f927ed"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "947d0647-ae94-4645-9b25-4a2b0fe85da0"
                   },
                   "staking_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f536d0f6-bc33-4b39-9300-ff096004cd9e"
                   }
@@ -17182,12 +17182,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a76a3625-a0ae-433d-9307-9f843f94baa6"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "73fc53e3-8d51-4043-84d9-feacaf198fde"
                   }
@@ -17280,12 +17280,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1ea411af-4744-4356-80e2-5a3f7f6f8c5c"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e4cb766b-08c4-4d9e-ab9a-469b753c79e6"
                   },
@@ -17379,13 +17379,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "organisation_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "new_owner_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -17440,12 +17440,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "731a49b4-5529-48c8-b2b2-b314f99c707f"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ed34fc01-ff41-4697-901e-ac6007ed6f25"
                   }
@@ -17537,17 +17537,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "31a1a794-1b92-40ba-b9b8-133d19909415"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "781d6585-51d9-4345-8dd5-82f1b3ca6937"
                   },
                   "new_member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1f7ebda2-935f-49a6-8144-11a6acc71bad"
                   },
@@ -17653,12 +17653,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "446e1ba2-f761-4bcc-b637-45814fb02bb0"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "067c3263-dceb-4d83-b65d-e39cc8fff6bd"
                   }
@@ -17749,12 +17749,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "570e1052-e858-45f6-8b1e-5b4871aed2ed"
                   },
@@ -17816,7 +17816,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -17874,12 +17874,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "0a27c0b5-c2de-4452-9641-3a02b8982d84"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a057c8a3-a8ba-47c7-ad93-6688d9baa4c3"
                   }
@@ -17971,17 +17971,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6f7f2a97-0222-409d-b8c8-80128cb90192"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "78091f84-c2b5-400d-8bca-2b9c402219b4"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f48725c3-e18d-4d7a-883a-e7366d9e7311"
                   }
@@ -18059,17 +18059,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "446e1ba2-f761-4bcc-b637-45814fb02bb0"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "067c3263-dceb-4d83-b65d-e39cc8fff6bd"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6d9640b6-9978-4d72-ab08-e7fa8b54aefc"
                   },
@@ -18142,10 +18142,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "room_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "user_address_id" : {
                     "type" : "string"
@@ -18203,12 +18203,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "12139067-420d-4f76-8d45-ce09706a342a"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d7e18cd1-dfda-495a-8a8a-d318d064e485"
                   },
@@ -18379,12 +18379,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1f57f84c-5996-42a1-9cb6-ea073de2c291"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "ff741375-785d-4ab7-80f4-d6d401adc560"
                   }
@@ -18513,12 +18513,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "39e9dc4a-5e94-450a-9950-a7b06dac43b5"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6b7b93d9-4d0b-4570-b250-fa3c8bd394d3"
                   },
@@ -18645,17 +18645,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "b7d8125b-d229-417d-892c-6e4b10b30a5f"
                   },
                   "from_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c7ccc949-f81e-400d-84db-41771747f814"
                   }
@@ -18759,17 +18759,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6eb2e23b-d768-4c78-9576-d338d4abf251"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1bb2c0d7-28d9-4713-b20e-e01aad0eb7fd"
                   },
                   "invited_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   }
@@ -18855,17 +18855,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e9580af1-88d6-4d5c-a985-6557bcb4d1ff"
                   },
                   "from_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e8060bd0-4110-47a5-b6e6-1f3d10af7261"
                   }
@@ -18951,17 +18951,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f406394c-30c7-4442-bd6b-bee88e5580c7"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d30885d0-2a40-4811-8e47-213841ccfe9e"
                   },
                   "invited_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "4decafce-a6f9-4cbf-aad2-993650e77faf"
                   },
@@ -19056,17 +19056,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a8a2d792-cf23-4b2f-aca3-044c542bcf5e"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "36ccf7b1-b222-42ba-8cf1-1f2006e01ce5"
                   },
                   "request_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   }
@@ -19168,12 +19168,12 @@
                 "type" : "object",
                 "properties" : {
                   "request_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6675f67f-fece-4ade-8948-f1a444017001"
                   }
@@ -19257,17 +19257,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "cf9bb91f-09ac-41fd-8433-d565ac3422f7"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "0010f87b-af0e-4638-ab56-0b40316c95ec"
                   },
                   "request_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   }
@@ -19351,12 +19351,12 @@
                 "type" : "object",
                 "properties" : {
                   "request_account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "7a500bf7-6096-45bb-814a-750151972a96"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a3c38b29-b903-40e2-9ea3-84b75a338c2c"
                   }
@@ -19440,12 +19440,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d74b57ea-a6cb-4f71-af93-0c8da27490bf"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "985bcc4e-2719-4dec-b5ab-a8a87f04dc8a"
                   },
@@ -19547,12 +19547,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "446e1ba2-f761-4bcc-b637-45814fb02bb0"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "067c3263-dceb-4d83-b65d-e39cc8fff6bd"
                   },
@@ -19655,10 +19655,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "room_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -19713,17 +19713,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a4fb5714-59ba-43c2-a303-56bb28b7125a"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "18603be9-1043-41d3-9aac-90fce6096fe9"
                   },
                   "member_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "30ed3c8e-0f28-48ae-b34e-962c7590fae1"
                   }
@@ -19821,12 +19821,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "446e1ba2-f761-4bcc-b637-45814fb02bb0"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "067c3263-dceb-4d83-b65d-e39cc8fff6bd"
                   }
@@ -19911,12 +19911,12 @@
                 "type" : "object",
                 "properties" : {
                   "super_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "00000000-0000-0000-0000-000000000000"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a057c8a3-a8ba-47c7-ad93-6688d9baa4c3"
                   },
@@ -20013,17 +20013,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6f7f2a97-0222-409d-b8c8-80128cb90192"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "78091f84-c2b5-400d-8bca-2b9c402219b4"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f48725c3-e18d-4d7a-883a-e7366d9e7311"
                   }
@@ -20121,17 +20121,17 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "6f7f2a97-0222-409d-b8c8-80128cb90192"
                   },
                   "room_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "78091f84-c2b5-400d-8bca-2b9c402219b4"
                   },
                   "communication_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "f48725c3-e18d-4d7a-883a-e7366d9e7311"
                   }
@@ -21009,10 +21009,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -21067,12 +21067,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e60d034a-f1cb-498a-ade7-67cca89fd4b9"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "4ad52d99-a4d7-435f-94ff-f90a01dac853"
                   },
@@ -21181,10 +21181,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -21239,12 +21239,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d0b36d54-f6d2-4cf1-89fb-47b5222051ef"
                   },
                   "organisation_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8980630d-4978-4cbd-800d-b1c6874a8f45"
                   },
@@ -21306,12 +21306,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8e109881-6dbe-436b-95cf-212f299f4c05"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "83522b42-aa56-49ec-9a06-eecbb1eb6fe8"
                   },
@@ -21439,10 +21439,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "message" : {
                     "type" : "string"
@@ -21500,7 +21500,7 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "c066a454-c254-4821-ba5d-0457a5a2ff17"
                   },
@@ -21523,17 +21523,17 @@
                         "example" : "ETH-USDT"
                       },
                       "room_primary_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "2e1d96fb-514c-4c74-8920-4ba47c3524a6"
                       },
                       "room_secondary_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "3074f7e5-eee1-47c7-ba04-29594b5d20d0"
                       },
                       "organisation_id" : {
-                        "type" : "uuid",
+                        "type" : "string",
                         "required" : true,
                         "example" : "b1c36b78-77b9-4b09-b70e-aa9ecaa31a43"
                       },
@@ -21677,13 +21677,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "communication_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -21738,13 +21738,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "communication_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "new_body" : {
                     "type" : "string"
@@ -21802,10 +21802,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "form" : {
                     "type" : "object"
@@ -21863,12 +21863,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "011b2fba-0bce-42d9-9587-5ca57ea29943"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "e54203fe-18cd-4cfd-8717-fb7f705f156d"
                   },
@@ -21977,13 +21977,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "parent_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "body" : {
                     "type" : "string"
@@ -22041,12 +22041,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "68fd3215-4611-4e67-adfc-5d14529dd71c"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "d53478d9-bcf1-4ef4-8cba-92be8f7e3fc7"
                   }
@@ -22147,10 +22147,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -22205,10 +22205,10 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "message" : {
                     "type" : "string"
@@ -22266,12 +22266,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8e109881-6dbe-436b-95cf-212f299f4c05"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "83522b42-aa56-49ec-9a06-eecbb1eb6fe8"
                   },
@@ -22373,12 +22373,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "a57353fd-b4b3-4767-88f6-a5b5eec5c73e"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "859fe884-9a60-4b81-b16c-c34bd5aaca14"
                   },
@@ -22487,12 +22487,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "1ec1f932-d7e7-42a9-910f-a59518f1a6e5"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "14df935d-2a70-4689-aa53-3eff392547c0"
                   },
@@ -22601,12 +22601,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8e109881-6dbe-436b-95cf-212f299f4c05"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "83522b42-aa56-49ec-9a06-eecbb1eb6fe8"
                   },
@@ -22715,12 +22715,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "09963456-43d3-4e1f-b4b7-1e1d0f48535d"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "3a2f4faf-4685-4f39-80a0-e5109d8b8c4f"
                   },
@@ -22829,12 +22829,12 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "8e109881-6dbe-436b-95cf-212f299f4c05"
                   },
                   "swap_id" : {
-                    "type" : "uuid",
+                    "type" : "string",
                     "required" : true,
                     "example" : "83522b42-aa56-49ec-9a06-eecbb1eb6fe8"
                   },
@@ -22943,13 +22943,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "communication_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -23004,13 +23004,13 @@
                 "type" : "object",
                 "properties" : {
                   "account_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "swap_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   },
                   "communication_id" : {
-                    "type" : "uuid"
+                    "type" : "string"
                   }
                 }
               }
@@ -23523,7 +23523,8 @@
         "type" : "object",
         "properties" : {
           "op_id" : {
-            "type" : "uuid"
+            "type" : "string",
+            "format" : "uuid"
           },
           "op_level" : {
             "type" : "string"
@@ -23535,7 +23536,8 @@
             "type" : "number"
           },
           "op_account" : {
-            "type" : "uuid"
+            "type" : "string",
+            "format" : "uuid"
           },
           "mq_channel" : {
             "type" : "string"
