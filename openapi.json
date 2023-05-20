@@ -13,7 +13,9 @@
   "paths" : {
     "/account/check-email-available" : {
       "post" : {
-        "summary" : "checks that email is available",
+        "tags" : [ "account" ],
+        "summary" : "check-email-available",
+        "description" : "checks that email is available",
         "operationId" : "check_email_available",
         "requestBody" : {
           "content" : {
@@ -62,7 +64,9 @@
     },
     "/account/check-email-exists" : {
       "post" : {
-        "summary" : "checks that email exists in the db",
+        "tags" : [ "account" ],
+        "summary" : "check-email-exists",
+        "description" : "checks that email exists in the db",
         "operationId" : "check_email_exists",
         "requestBody" : {
           "content" : {
@@ -111,7 +115,9 @@
     },
     "/account/check-nickname-available" : {
       "post" : {
-        "summary" : "checks that the nickname is available",
+        "tags" : [ "account" ],
+        "summary" : "check-nickname-available",
+        "description" : "checks that the nickname is available",
         "operationId" : "check_nickname_available",
         "requestBody" : {
           "content" : {
@@ -160,7 +166,9 @@
     },
     "/account/check-nickname-exists" : {
       "post" : {
-        "summary" : "check that nickname exists in the db",
+        "tags" : [ "account" ],
+        "summary" : "check-nickname-exists",
+        "description" : "check that nickname exists in the db",
         "operationId" : "check_nickname_exists",
         "requestBody" : {
           "content" : {
@@ -209,7 +217,9 @@
     },
     "/account/create-account" : {
       "post" : {
-        "summary" : "creates an account",
+        "tags" : [ "account" ],
+        "summary" : "create-account",
+        "description" : "creates an account",
         "operationId" : "create_account",
         "requestBody" : {
           "content" : {
@@ -338,7 +348,9 @@
     },
     "/account/delete-account" : {
       "post" : {
-        "summary" : "deletes an account",
+        "tags" : [ "account" ],
+        "summary" : "delete-account",
+        "description" : "deletes an account",
         "operationId" : "delete_account",
         "parameters" : [ {
           "in" : "header",
@@ -393,7 +405,9 @@
     },
     "/account/delete-account-check" : {
       "post" : {
-        "summary" : "checks that account can be deleted",
+        "tags" : [ "account" ],
+        "summary" : "delete-account-check",
+        "description" : "checks that account can be deleted",
         "operationId" : "delete_account_check",
         "parameters" : [ {
           "in" : "header",
@@ -448,7 +462,9 @@
     },
     "/account/email-add-additional" : {
       "post" : {
-        "summary" : "adds an additional email to account",
+        "tags" : [ "account" ],
+        "summary" : "email-add-additional",
+        "description" : "adds an additional email to account",
         "operationId" : "email_add_additional",
         "parameters" : [ {
           "in" : "header",
@@ -506,7 +522,9 @@
     },
     "/account/email-get-all" : {
       "post" : {
-        "summary" : "gets all emails associated with account",
+        "tags" : [ "account" ],
+        "summary" : "email-get-all",
+        "description" : "gets all emails associated with account",
         "operationId" : "email_get_all",
         "parameters" : [ {
           "in" : "header",
@@ -573,7 +591,9 @@
     },
     "/account/email-get-primary" : {
       "post" : {
-        "summary" : "gets the primary email associated with the account",
+        "tags" : [ "account" ],
+        "summary" : "email-get-primary",
+        "description" : "gets the primary email associated with the account",
         "operationId" : "email_get_primary",
         "parameters" : [ {
           "in" : "header",
@@ -640,7 +660,9 @@
     },
     "/account/email-registration" : {
       "post" : {
-        "summary" : "gets email registration",
+        "tags" : [ "account" ],
+        "summary" : "email-registration",
+        "description" : "gets email registration",
         "operationId" : "email_registration",
         "requestBody" : {
           "content" : {
@@ -683,7 +705,9 @@
     },
     "/account/email-remove-additional" : {
       "post" : {
-        "summary" : "removes the email from the account",
+        "tags" : [ "account" ],
+        "summary" : "email-remove-additional",
+        "description" : "removes the email from the account",
         "operationId" : "email_remove_additional",
         "parameters" : [ {
           "in" : "header",
@@ -772,7 +796,9 @@
     },
     "/account/email-set-primary" : {
       "post" : {
-        "summary" : "sets the email as primary",
+        "tags" : [ "account" ],
+        "summary" : "email-set-primary",
+        "description" : "sets the email as primary",
         "operationId" : "email_set_primary",
         "parameters" : [ {
           "in" : "header",
@@ -866,7 +892,9 @@
     },
     "/account/email-verification" : {
       "post" : {
-        "summary" : "verifies code generated on registration",
+        "tags" : [ "account" ],
+        "summary" : "email-verification",
+        "description" : "verifies code generated on registration",
         "operationId" : "email_verification",
         "requestBody" : {
           "content" : {
@@ -953,7 +981,9 @@
     },
     "/account/email-verification-resend" : {
       "post" : {
-        "summary" : "renews the verification code",
+        "tags" : [ "account" ],
+        "summary" : "email-verification-resend",
+        "description" : "renews the verification code",
         "operationId" : "email_verification_resend",
         "requestBody" : {
           "content" : {
@@ -1041,7 +1071,9 @@
     },
     "/account/email-verify-additional" : {
       "post" : {
-        "summary" : "verifies the additional email",
+        "tags" : [ "account" ],
+        "summary" : "email-verify-additional",
+        "description" : "verifies the additional email",
         "operationId" : "email_verify_additional",
         "parameters" : [ {
           "in" : "header",
@@ -1137,7 +1169,9 @@
     },
     "/account/email-verify-additional-resend" : {
       "post" : {
-        "summary" : "verifies additional email",
+        "tags" : [ "account" ],
+        "summary" : "email-verify-additional-resend",
+        "description" : "verifies additional email",
         "operationId" : "email_verify_additional_resend",
         "parameters" : [ {
           "in" : "header",
@@ -1195,7 +1229,9 @@
     },
     "/account/get-privacy-policy" : {
       "post" : {
-        "summary" : "gets the privacy policy",
+        "tags" : [ "account" ],
+        "summary" : "get-privacy-policy",
+        "description" : "gets the privacy policy",
         "operationId" : "get_privacy_policy",
         "requestBody" : {
           "content" : {
@@ -1244,7 +1280,9 @@
     },
     "/account/get-terms-and-conditions" : {
       "post" : {
-        "summary" : "gets the current terms and conditions",
+        "tags" : [ "account" ],
+        "summary" : "get-terms-and-conditions",
+        "description" : "gets the current terms and conditions",
         "operationId" : "get_terms_and_conditions",
         "requestBody" : {
           "content" : {
@@ -1293,7 +1331,9 @@
     },
     "/account/login" : {
       "post" : {
-        "summary" : "login web web interface",
+        "tags" : [ "account" ],
+        "summary" : "login",
+        "description" : "login web web interface",
         "operationId" : "login",
         "requestBody" : {
           "content" : {
@@ -1336,7 +1376,9 @@
     },
     "/account/login-renew" : {
       "post" : {
-        "summary" : "renews an expiring token",
+        "tags" : [ "account" ],
+        "summary" : "login-renew",
+        "description" : "renews an expiring token",
         "operationId" : "login_renew",
         "requestBody" : {
           "content" : {
@@ -1408,7 +1450,9 @@
     },
     "/account/logout" : {
       "post" : {
-        "summary" : "logs out of current session",
+        "tags" : [ "account" ],
+        "summary" : "logout",
+        "description" : "logs out of current session",
         "operationId" : "logout",
         "requestBody" : {
           "content" : {
@@ -1464,7 +1508,9 @@
     },
     "/account/net-check" : {
       "post" : {
-        "summary" : "check for statsnet",
+        "tags" : [ "account" ],
+        "summary" : "net-check",
+        "description" : "check for statsnet",
         "operationId" : "net_check",
         "parameters" : [ {
           "in" : "header",
@@ -1521,7 +1567,9 @@
     },
     "/account/notification-modify" : {
       "post" : {
-        "summary" : "modifies user notification",
+        "tags" : [ "account" ],
+        "summary" : "notification-modify",
+        "description" : "modifies user notification",
         "operationId" : "notification_modify",
         "parameters" : [ {
           "in" : "header",
@@ -1615,7 +1663,9 @@
     },
     "/account/oauth-unlink" : {
       "post" : {
-        "summary" : "unlinks a social media account",
+        "tags" : [ "account" ],
+        "summary" : "oauth-unlink",
+        "description" : "unlinks a social media account",
         "operationId" : "oauth_unlink",
         "parameters" : [ {
           "in" : "header",
@@ -1714,7 +1764,9 @@
     },
     "/account/password-change" : {
       "post" : {
-        "summary" : "changes password web",
+        "tags" : [ "account" ],
+        "summary" : "password-change",
+        "description" : "changes password web",
         "operationId" : "password_change",
         "parameters" : [ {
           "in" : "header",
@@ -1769,7 +1821,9 @@
     },
     "/account/password-reset" : {
       "post" : {
-        "summary" : "performs the password web",
+        "tags" : [ "account" ],
+        "summary" : "password-reset",
+        "description" : "performs the password web",
         "operationId" : "password_reset",
         "requestBody" : {
           "content" : {
@@ -1812,7 +1866,9 @@
     },
     "/account/password-reset-request" : {
       "post" : {
-        "summary" : "sends out a password request request",
+        "tags" : [ "account" ],
+        "summary" : "password-reset-request",
+        "description" : "sends out a password request request",
         "operationId" : "password_reset_request",
         "requestBody" : {
           "content" : {
@@ -1894,7 +1950,9 @@
     },
     "/account/profile-modify" : {
       "post" : {
-        "summary" : "modifies user profile",
+        "tags" : [ "account" ],
+        "summary" : "profile-modify",
+        "description" : "modifies user profile",
         "operationId" : "profile_modify",
         "parameters" : [ {
           "in" : "header",
@@ -1988,7 +2046,9 @@
     },
     "/brand/brand-add-member" : {
       "post" : {
-        "summary" : "adds an brand member",
+        "tags" : [ "brand" ],
+        "summary" : "brand-add-member",
+        "description" : "adds an brand member",
         "operationId" : "brand_add_member",
         "parameters" : [ {
           "in" : "header",
@@ -2104,7 +2164,9 @@
     },
     "/brand/brand-add-star" : {
       "post" : {
-        "summary" : "stars an brand",
+        "tags" : [ "brand" ],
+        "summary" : "brand-add-star",
+        "description" : "stars an brand",
         "operationId" : "brand_add_star",
         "parameters" : [ {
           "in" : "header",
@@ -2200,7 +2262,9 @@
     },
     "/brand/brand-affiliation-accept" : {
       "post" : {
-        "summary" : "accepts the brand affiliation request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-affiliation-accept",
+        "description" : "accepts the brand affiliation request",
         "operationId" : "brand_affiliation_accept",
         "parameters" : [ {
           "in" : "header",
@@ -2332,7 +2396,9 @@
     },
     "/brand/brand-affiliation-add" : {
       "post" : {
-        "summary" : "performs brand affiliation request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-affiliation-add",
+        "description" : "performs brand affiliation request",
         "operationId" : "brand_affiliation_add",
         "parameters" : [ {
           "in" : "header",
@@ -2419,7 +2485,9 @@
     },
     "/brand/brand-affiliation-reject" : {
       "post" : {
-        "summary" : "rejects the brand affiliation request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-affiliation-reject",
+        "description" : "rejects the brand affiliation request",
         "operationId" : "brand_affiliation_reject",
         "parameters" : [ {
           "in" : "header",
@@ -2533,7 +2601,9 @@
     },
     "/brand/brand-affiliation-remove" : {
       "post" : {
-        "summary" : "performs brand affiliation request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-affiliation-remove",
+        "description" : "performs brand affiliation request",
         "operationId" : "brand_affiliation_remove",
         "parameters" : [ {
           "in" : "header",
@@ -2622,7 +2692,9 @@
     },
     "/brand/brand-affiliation-request" : {
       "post" : {
-        "summary" : "performs brand affiliation request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-affiliation-request",
+        "description" : "performs brand affiliation request",
         "operationId" : "brand_affiliation_request",
         "parameters" : [ {
           "in" : "header",
@@ -2736,7 +2808,9 @@
     },
     "/brand/brand-create" : {
       "post" : {
-        "summary" : "creates the brand",
+        "tags" : [ "brand" ],
+        "summary" : "brand-create",
+        "description" : "creates the brand",
         "operationId" : "brand_create",
         "requestBody" : {
           "content" : {
@@ -2850,7 +2924,9 @@
     },
     "/brand/brand-downvote-wall" : {
       "post" : {
-        "summary" : "downvotes on the wall",
+        "tags" : [ "brand" ],
+        "summary" : "brand-downvote-wall",
+        "description" : "downvotes on the wall",
         "operationId" : "brand_downvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -2938,7 +3014,9 @@
     },
     "/brand/brand-edit-wall" : {
       "post" : {
-        "summary" : "edits the comment on the wall",
+        "tags" : [ "brand" ],
+        "summary" : "brand-edit-wall",
+        "description" : "edits the comment on the wall",
         "operationId" : "brand_edit_wall",
         "parameters" : [ {
           "in" : "header",
@@ -3021,7 +3099,9 @@
     },
     "/brand/brand-leave-as-member" : {
       "post" : {
-        "summary" : "leaves as a member",
+        "tags" : [ "brand" ],
+        "summary" : "brand-leave-as-member",
+        "description" : "leaves as a member",
         "operationId" : "brand_leave_as_member",
         "parameters" : [ {
           "in" : "header",
@@ -3124,7 +3204,9 @@
     },
     "/brand/brand-modify" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "brand" ],
+        "summary" : "brand-modify",
+        "description" : "",
         "operationId" : "brand_modify",
         "parameters" : [ {
           "in" : "header",
@@ -3185,7 +3267,9 @@
     },
     "/brand/brand-post-wall" : {
       "post" : {
-        "summary" : "posts a message on wall",
+        "tags" : [ "brand" ],
+        "summary" : "brand-post-wall",
+        "description" : "posts a message on wall",
         "operationId" : "brand_post_wall",
         "parameters" : [ {
           "in" : "header",
@@ -3293,7 +3377,9 @@
     },
     "/brand/brand-remove" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "brand" ],
+        "summary" : "brand-remove",
+        "description" : "",
         "operationId" : "brand_remove",
         "parameters" : [ {
           "in" : "header",
@@ -3351,7 +3437,9 @@
     },
     "/brand/brand-remove-member" : {
       "post" : {
-        "summary" : "removes a member",
+        "tags" : [ "brand" ],
+        "summary" : "brand-remove-member",
+        "description" : "removes a member",
         "operationId" : "brand_remove_member",
         "parameters" : [ {
           "in" : "header",
@@ -3459,7 +3547,9 @@
     },
     "/brand/brand-remove-star" : {
       "post" : {
-        "summary" : "unstars a brand",
+        "tags" : [ "brand" ],
+        "summary" : "brand-remove-star",
+        "description" : "unstars a brand",
         "operationId" : "brand_remove_star",
         "parameters" : [ {
           "in" : "header",
@@ -3557,7 +3647,9 @@
     },
     "/brand/brand-swap-sponsorship-request" : {
       "post" : {
-        "summary" : "requests brand sponsorship on a swap",
+        "tags" : [ "brand" ],
+        "summary" : "brand-swap-sponsorship-request",
+        "description" : "requests brand sponsorship on a swap",
         "operationId" : "brand_swap_sponsorship_request",
         "parameters" : [ {
           "in" : "header",
@@ -3671,7 +3763,9 @@
     },
     "/brand/brand-swap-sponsorship-response" : {
       "post" : {
-        "summary" : "response for sponsorship request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-swap-sponsorship-response",
+        "description" : "response for sponsorship request",
         "operationId" : "brand_swap_sponsorship_response",
         "parameters" : [ {
           "in" : "header",
@@ -3785,7 +3879,9 @@
     },
     "/brand/brand-topic-sponsorship-request" : {
       "post" : {
-        "summary" : "requests brand sponsorship on a topic",
+        "tags" : [ "brand" ],
+        "summary" : "brand-topic-sponsorship-request",
+        "description" : "requests brand sponsorship on a topic",
         "operationId" : "brand_topic_sponsorship_request",
         "parameters" : [ {
           "in" : "header",
@@ -3899,7 +3995,9 @@
     },
     "/brand/brand-topic-sponsorship-response" : {
       "post" : {
-        "summary" : "response for sponsorship request",
+        "tags" : [ "brand" ],
+        "summary" : "brand-topic-sponsorship-response",
+        "description" : "response for sponsorship request",
         "operationId" : "brand_topic_sponsorship_response",
         "parameters" : [ {
           "in" : "header",
@@ -4013,7 +4111,9 @@
     },
     "/brand/brand-transfer-ownership" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "brand" ],
+        "summary" : "brand-transfer-ownership",
+        "description" : "",
         "operationId" : "brand_transfer_ownership",
         "parameters" : [ {
           "in" : "header",
@@ -4074,7 +4174,9 @@
     },
     "/brand/brand-unvote-wall" : {
       "post" : {
-        "summary" : "removes a user's vote from brand wall",
+        "tags" : [ "brand" ],
+        "summary" : "brand-unvote-wall",
+        "description" : "removes a user's vote from brand wall",
         "operationId" : "brand_unvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -4182,7 +4284,9 @@
     },
     "/brand/brand-upvote-wall" : {
       "post" : {
-        "summary" : "upvotes the comment on the wall",
+        "tags" : [ "brand" ],
+        "summary" : "brand-upvote-wall",
+        "description" : "upvotes the comment on the wall",
         "operationId" : "brand_upvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -4288,7 +4392,9 @@
     },
     "/debug/echo" : {
       "post" : {
-        "summary" : "returns the ",
+        "tags" : [ "debug" ],
+        "summary" : "echo",
+        "description" : "returns the ",
         "operationId" : "echo",
         "requestBody" : {
           "content" : {
@@ -4337,7 +4443,9 @@
     },
     "/debug/ping" : {
       "post" : {
-        "summary" : "returns `pong`",
+        "tags" : [ "debug" ],
+        "summary" : "ping",
+        "description" : "returns `pong`",
         "operationId" : "ping",
         "requestBody" : {
           "content" : {
@@ -4380,7 +4488,9 @@
     },
     "/entity/organisation-add-entity" : {
       "post" : {
-        "summary" : "adds an entity",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-add-entity",
+        "description" : "adds an entity",
         "operationId" : "organisation_add_entity",
         "parameters" : [ {
           "in" : "header",
@@ -4485,7 +4595,9 @@
     },
     "/entity/organisation-add-entity-bulk" : {
       "post" : {
-        "summary" : "adds bulk entities",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-add-entity-bulk",
+        "description" : "adds bulk entities",
         "operationId" : "organisation_add_entity_bulk",
         "parameters" : [ {
           "in" : "header",
@@ -4625,7 +4737,9 @@
     },
     "/entity/organisation-add-entity-group" : {
       "post" : {
-        "summary" : "adds a group to the organisation",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-add-entity-group",
+        "description" : "adds a group to the organisation",
         "operationId" : "organisation_add_entity_group",
         "parameters" : [ {
           "in" : "header",
@@ -4719,7 +4833,9 @@
     },
     "/entity/organisation-modify-entity" : {
       "post" : {
-        "summary" : "modifies an entity",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-modify-entity",
+        "description" : "modifies an entity",
         "operationId" : "organisation_modify_entity",
         "parameters" : [ {
           "in" : "header",
@@ -4827,7 +4943,9 @@
     },
     "/entity/organisation-modify-entity-group" : {
       "post" : {
-        "summary" : "modifies the organisation",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-modify-entity-group",
+        "description" : "modifies the organisation",
         "operationId" : "organisation_modify_entity_group",
         "parameters" : [ {
           "in" : "header",
@@ -4921,7 +5039,9 @@
     },
     "/entity/organisation-modify-entity-tags" : {
       "post" : {
-        "summary" : "modifies the entity tags",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-modify-entity-tags",
+        "description" : "modifies the entity tags",
         "operationId" : "organisation_modify_entity_tags",
         "parameters" : [ {
           "in" : "header",
@@ -5010,7 +5130,9 @@
     },
     "/entity/organisation-remove-entity" : {
       "post" : {
-        "summary" : "removes an entity",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-remove-entity",
+        "description" : "removes an entity",
         "operationId" : "organisation_remove_entity",
         "parameters" : [ {
           "in" : "header",
@@ -5109,7 +5231,9 @@
     },
     "/entity/organisation-remove-entity-group" : {
       "post" : {
-        "summary" : "removes a group from organisation",
+        "tags" : [ "entity" ],
+        "summary" : "organisation-remove-entity-group",
+        "description" : "removes a group from organisation",
         "operationId" : "organisation_remove_entity_group",
         "parameters" : [ {
           "in" : "header",
@@ -5200,7 +5324,9 @@
     },
     "/ethereum/evm-account-close-request" : {
       "post" : {
-        "summary" : "creates a close request",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-account-close-request",
+        "description" : "creates a close request",
         "operationId" : "evm_account_close_request",
         "parameters" : [ {
           "in" : "header",
@@ -5352,7 +5478,9 @@
     },
     "/ethereum/evm-action-error" : {
       "post" : {
-        "summary" : "puts error on the action",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-action-error",
+        "description" : "puts error on the action",
         "operationId" : "evm_action_error",
         "requestBody" : {
           "content" : {
@@ -5475,7 +5603,9 @@
     },
     "/ethereum/evm-action-get-status" : {
       "post" : {
-        "summary" : "gets the ations by status",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-action-get-status",
+        "description" : "gets the ations by status",
         "operationId" : "evm_action_get_status",
         "requestBody" : {
           "content" : {
@@ -5549,7 +5679,9 @@
     },
     "/ethereum/evm-action-return" : {
       "post" : {
-        "summary" : "returns a submitted block",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-action-return",
+        "description" : "returns a submitted block",
         "operationId" : "evm_action_return",
         "requestBody" : {
           "content" : {
@@ -5680,7 +5812,9 @@
     },
     "/ethereum/evm-action-take" : {
       "post" : {
-        "summary" : "takes an action",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-action-take",
+        "description" : "takes an action",
         "operationId" : "evm_action_take",
         "requestBody" : {
           "content" : {
@@ -5766,7 +5900,9 @@
     },
     "/ethereum/evm-action-take-reset" : {
       "post" : {
-        "summary" : "resets the action",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-action-take-reset",
+        "description" : "resets the action",
         "operationId" : "evm_action_take_reset",
         "requestBody" : {
           "content" : {
@@ -5852,7 +5988,9 @@
     },
     "/ethereum/evm-add-chain" : {
       "post" : {
-        "summary" : "adds a chain to the db",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-add-chain",
+        "description" : "adds a chain to the db",
         "operationId" : "evm_add_chain",
         "requestBody" : {
           "content" : {
@@ -5961,7 +6099,9 @@
     },
     "/ethereum/evm-add-contract" : {
       "post" : {
-        "summary" : "adds a contract address",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-add-contract",
+        "description" : "adds a contract address",
         "operationId" : "evm_add_contract",
         "requestBody" : {
           "content" : {
@@ -6054,7 +6194,9 @@
     },
     "/ethereum/evm-add-contract-template" : {
       "post" : {
-        "summary" : "adds a contract",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-add-contract-template",
+        "description" : "adds a contract",
         "operationId" : "evm_add_contract_template",
         "requestBody" : {
           "content" : {
@@ -6144,7 +6286,9 @@
     },
     "/ethereum/evm-add-faucet-entry" : {
       "post" : {
-        "summary" : "adds a faucet entry",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-add-faucet-entry",
+        "description" : "adds a faucet entry",
         "operationId" : "evm_add_faucet_entry",
         "requestBody" : {
           "content" : {
@@ -6212,7 +6356,9 @@
     },
     "/ethereum/evm-add-token" : {
       "post" : {
-        "summary" : "adds a token contract address",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-add-token",
+        "description" : "adds a token contract address",
         "operationId" : "evm_add_token",
         "requestBody" : {
           "content" : {
@@ -6296,7 +6442,9 @@
     },
     "/ethereum/evm-remove-chain" : {
       "post" : {
-        "summary" : "removes chain from db",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-chain",
+        "description" : "removes chain from db",
         "operationId" : "evm_remove_chain",
         "requestBody" : {
           "content" : {
@@ -6381,7 +6529,9 @@
     },
     "/ethereum/evm-remove-contract" : {
       "post" : {
-        "summary" : "removes a contract address",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-contract",
+        "description" : "removes a contract address",
         "operationId" : "evm_remove_contract",
         "requestBody" : {
           "content" : {
@@ -6453,7 +6603,9 @@
     },
     "/ethereum/evm-remove-contract-template" : {
       "post" : {
-        "summary" : "removes a contract",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-contract-template",
+        "description" : "removes a contract",
         "operationId" : "evm_remove_contract_template",
         "requestBody" : {
           "content" : {
@@ -6522,7 +6674,9 @@
     },
     "/ethereum/evm-remove-faucet-entry" : {
       "post" : {
-        "summary" : "removes a faucet entry",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-faucet-entry",
+        "description" : "removes a faucet entry",
         "operationId" : "evm_remove_faucet_entry",
         "requestBody" : {
           "content" : {
@@ -6587,7 +6741,9 @@
     },
     "/ethereum/evm-remove-token" : {
       "post" : {
-        "summary" : "removes an evm token",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-token",
+        "description" : "removes an evm token",
         "operationId" : "evm_remove_token",
         "requestBody" : {
           "content" : {
@@ -6655,7 +6811,9 @@
     },
     "/ethereum/evm-remove-user-address" : {
       "post" : {
-        "summary" : "removes a user address",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-remove-user-address",
+        "description" : "removes a user address",
         "operationId" : "evm_remove_user_address",
         "parameters" : [ {
           "in" : "header",
@@ -6738,7 +6896,9 @@
     },
     "/ethereum/evm-update-chain" : {
       "post" : {
-        "summary" : "updates evm chain info",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-update-chain",
+        "description" : "updates evm chain info",
         "operationId" : "evm_update_chain",
         "requestBody" : {
           "content" : {
@@ -6791,7 +6951,9 @@
     },
     "/ethereum/evm-update-token" : {
       "post" : {
-        "summary" : "updates evm token",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-update-token",
+        "description" : "updates evm token",
         "operationId" : "evm_update_token",
         "requestBody" : {
           "content" : {
@@ -6844,7 +7006,9 @@
     },
     "/ethereum/evm-vault-wait" : {
       "post" : {
-        "summary" : "processes room options",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-vault-wait",
+        "description" : "processes room options",
         "operationId" : "evm_vault_wait",
         "requestBody" : {
           "content" : {
@@ -6981,7 +7145,9 @@
     },
     "/ethereum/evm-vault-withdraw-cancel" : {
       "post" : {
-        "summary" : "cancel the withdraw",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-vault-withdraw-cancel",
+        "description" : "cancel the withdraw",
         "operationId" : "evm_vault_withdraw_cancel",
         "parameters" : [ {
           "in" : "header",
@@ -7147,7 +7313,9 @@
     },
     "/ethereum/evm-vault-withdraw-create" : {
       "post" : {
-        "summary" : "creates a withdraw db entry",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-vault-withdraw-create",
+        "description" : "creates a withdraw db entry",
         "operationId" : "evm_vault_withdraw_create",
         "parameters" : [ {
           "in" : "header",
@@ -7306,7 +7474,9 @@
     },
     "/ethereum/evm-vault-withdraw-requeue" : {
       "post" : {
-        "summary" : "requests an action reset",
+        "tags" : [ "ethereum" ],
+        "summary" : "evm-vault-withdraw-requeue",
+        "description" : "requests an action reset",
         "operationId" : "evm_vault_withdraw_requeue",
         "parameters" : [ {
           "in" : "header",
@@ -7448,7 +7618,9 @@
     },
     "/extern/add-site-application" : {
       "post" : {
-        "summary" : "adds a site application",
+        "tags" : [ "extern" ],
+        "summary" : "add-site-application",
+        "description" : "adds a site application",
         "operationId" : "add_site_application",
         "parameters" : [ {
           "in" : "header",
@@ -7555,7 +7727,9 @@
     },
     "/extern/add-user-api-key" : {
       "post" : {
-        "summary" : "adds the user api key",
+        "tags" : [ "extern" ],
+        "summary" : "add-user-api-key",
+        "description" : "adds the user api key",
         "operationId" : "add_user_api_key",
         "parameters" : [ {
           "in" : "header",
@@ -7641,7 +7815,9 @@
     },
     "/extern/refresh-user-api-key" : {
       "post" : {
-        "summary" : "refresns the user api key",
+        "tags" : [ "extern" ],
+        "summary" : "refresh-user-api-key",
+        "description" : "refresns the user api key",
         "operationId" : "refresh_user_api_key",
         "parameters" : [ {
           "in" : "header",
@@ -7723,7 +7899,9 @@
     },
     "/extern/remove-site-application" : {
       "post" : {
-        "summary" : "removes the site application",
+        "tags" : [ "extern" ],
+        "summary" : "remove-site-application",
+        "description" : "removes the site application",
         "operationId" : "remove_site_application",
         "parameters" : [ {
           "in" : "header",
@@ -7813,7 +7991,9 @@
     },
     "/extern/remove-user-api-key" : {
       "post" : {
-        "summary" : "removes the user api key",
+        "tags" : [ "extern" ],
+        "summary" : "remove-user-api-key",
+        "description" : "removes the user api key",
         "operationId" : "remove_user_api_key",
         "parameters" : [ {
           "in" : "header",
@@ -7895,7 +8075,9 @@
     },
     "/game/buy-stake" : {
       "post" : {
-        "summary" : "buys a stake",
+        "tags" : [ "game" ],
+        "summary" : "buy-stake",
+        "description" : "buys a stake",
         "operationId" : "buy_stake",
         "parameters" : [ {
           "in" : "header",
@@ -8059,7 +8241,9 @@
     },
     "/game/payout-discard" : {
       "post" : {
-        "summary" : "discards losing contracts",
+        "tags" : [ "game" ],
+        "summary" : "payout-discard",
+        "description" : "discards losing contracts",
         "operationId" : "payout_discard",
         "parameters" : [ {
           "in" : "header",
@@ -8163,7 +8347,9 @@
     },
     "/game/payout-return-no" : {
       "post" : {
-        "summary" : "return no contracts at final market price",
+        "tags" : [ "game" ],
+        "summary" : "payout-return-no",
+        "description" : "return no contracts at final market price",
         "operationId" : "payout_return_no",
         "parameters" : [ {
           "in" : "header",
@@ -8267,7 +8453,9 @@
     },
     "/game/payout-return-yes" : {
       "post" : {
-        "summary" : "return yes contracts at final market price",
+        "tags" : [ "game" ],
+        "summary" : "payout-return-yes",
+        "description" : "return yes contracts at final market price",
         "operationId" : "payout_return_yes",
         "parameters" : [ {
           "in" : "header",
@@ -8371,7 +8559,9 @@
     },
     "/game/payout-stake" : {
       "post" : {
-        "summary" : "performs payouts",
+        "tags" : [ "game" ],
+        "summary" : "payout-stake",
+        "description" : "performs payouts",
         "operationId" : "payout_stake",
         "parameters" : [ {
           "in" : "header",
@@ -8475,7 +8665,9 @@
     },
     "/game/payout-winning" : {
       "post" : {
-        "summary" : "payout winning contracts",
+        "tags" : [ "game" ],
+        "summary" : "payout-winning",
+        "description" : "payout winning contracts",
         "operationId" : "payout_winning",
         "parameters" : [ {
           "in" : "header",
@@ -8579,7 +8771,9 @@
     },
     "/game/prospect-complete" : {
       "post" : {
-        "summary" : "completes the prospect",
+        "tags" : [ "game" ],
+        "summary" : "prospect-complete",
+        "description" : "completes the prospect",
         "operationId" : "prospect_complete",
         "parameters" : [ {
           "in" : "header",
@@ -8690,7 +8884,9 @@
     },
     "/game/prospect-confirm-verdict" : {
       "post" : {
-        "summary" : "confirms the verdict",
+        "tags" : [ "game" ],
+        "summary" : "prospect-confirm-verdict",
+        "description" : "confirms the verdict",
         "operationId" : "prospect_confirm_verdict",
         "parameters" : [ {
           "in" : "header",
@@ -8801,7 +8997,9 @@
     },
     "/game/prospect-pause-trading" : {
       "post" : {
-        "summary" : "pauses a given topic for trading",
+        "tags" : [ "game" ],
+        "summary" : "prospect-pause-trading",
+        "description" : "pauses a given topic for trading",
         "operationId" : "prospect_pause_trading",
         "parameters" : [ {
           "in" : "header",
@@ -8912,7 +9110,9 @@
     },
     "/game/prospect-resolve" : {
       "post" : {
-        "summary" : "resolves incomplete orders",
+        "tags" : [ "game" ],
+        "summary" : "prospect-resolve",
+        "description" : "resolves incomplete orders",
         "operationId" : "prospect_resolve",
         "parameters" : [ {
           "in" : "header",
@@ -9016,7 +9216,9 @@
     },
     "/game/prospect-start-allocation" : {
       "post" : {
-        "summary" : "starts the prospect allocation",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-allocation",
+        "description" : "starts the prospect allocation",
         "operationId" : "prospect_start_allocation",
         "parameters" : [ {
           "in" : "header",
@@ -9127,7 +9329,9 @@
     },
     "/game/prospect-start-registration" : {
       "post" : {
-        "summary" : "starts a given topic for registration",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-registration",
+        "description" : "starts a given topic for registration",
         "operationId" : "prospect_start_registration",
         "parameters" : [ {
           "in" : "header",
@@ -9238,7 +9442,9 @@
     },
     "/game/prospect-start-resolution" : {
       "post" : {
-        "summary" : "finalises trading for topic",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-resolution",
+        "description" : "finalises trading for topic",
         "operationId" : "prospect_start_resolution",
         "parameters" : [ {
           "in" : "header",
@@ -9349,7 +9555,9 @@
     },
     "/game/prospect-start-trading" : {
       "post" : {
-        "summary" : "starts a given topic for trading",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-trading",
+        "description" : "starts a given topic for trading",
         "operationId" : "prospect_start_trading",
         "parameters" : [ {
           "in" : "header",
@@ -9460,7 +9668,9 @@
     },
     "/game/prospect-start-verdict" : {
       "post" : {
-        "summary" : "resolves trading step requires all orders to be complete",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-verdict",
+        "description" : "resolves trading step requires all orders to be complete",
         "operationId" : "prospect_start_verdict",
         "parameters" : [ {
           "in" : "header",
@@ -9590,7 +9800,9 @@
     },
     "/game/prospect-start-verdict-check" : {
       "post" : {
-        "summary" : "checks that trading has been resolved",
+        "tags" : [ "game" ],
+        "summary" : "prospect-start-verdict-check",
+        "description" : "checks that trading has been resolved",
         "operationId" : "prospect_start_verdict_check",
         "parameters" : [ {
           "in" : "header",
@@ -9677,7 +9889,9 @@
     },
     "/game/prospect-stop-trading" : {
       "post" : {
-        "summary" : "stops trading for a given topic",
+        "tags" : [ "game" ],
+        "summary" : "prospect-stop-trading",
+        "description" : "stops trading for a given topic",
         "operationId" : "prospect_stop_trading",
         "parameters" : [ {
           "in" : "header",
@@ -9788,7 +10002,9 @@
     },
     "/game/room-topic-create" : {
       "post" : {
-        "summary" : "creates a room topic",
+        "tags" : [ "game" ],
+        "summary" : "room-topic-create",
+        "description" : "creates a room topic",
         "operationId" : "room_topic_create",
         "parameters" : [ {
           "in" : "header",
@@ -10025,7 +10241,9 @@
     },
     "/game/topic-allocate-input" : {
       "post" : {
-        "summary" : "starts the allocation process",
+        "tags" : [ "game" ],
+        "summary" : "topic-allocate-input",
+        "description" : "starts the allocation process",
         "operationId" : "topic_allocate_input",
         "parameters" : [ {
           "in" : "header",
@@ -10171,7 +10389,9 @@
     },
     "/game/topic-allocate-process" : {
       "post" : {
-        "summary" : "starts the allocation process",
+        "tags" : [ "game" ],
+        "summary" : "topic-allocate-process",
+        "description" : "starts the allocation process",
         "operationId" : "topic_allocate_process",
         "parameters" : [ {
           "in" : "header",
@@ -10229,7 +10449,9 @@
     },
     "/game/topic-complete" : {
       "post" : {
-        "summary" : "completes the topic",
+        "tags" : [ "game" ],
+        "summary" : "topic-complete",
+        "description" : "completes the topic",
         "operationId" : "topic_complete",
         "parameters" : [ {
           "in" : "header",
@@ -10290,7 +10512,9 @@
     },
     "/game/topic-confirm" : {
       "post" : {
-        "summary" : "confirms the topic",
+        "tags" : [ "game" ],
+        "summary" : "topic-confirm",
+        "description" : "confirms the topic",
         "operationId" : "topic_confirm",
         "parameters" : [ {
           "in" : "header",
@@ -10459,7 +10683,9 @@
     },
     "/game/topic-create" : {
       "post" : {
-        "summary" : "creates a topic",
+        "tags" : [ "game" ],
+        "summary" : "topic-create",
+        "description" : "creates a topic",
         "operationId" : "topic_create",
         "parameters" : [ {
           "in" : "header",
@@ -10517,7 +10743,9 @@
     },
     "/game/topic-discard" : {
       "post" : {
-        "summary" : "discards the topic",
+        "tags" : [ "game" ],
+        "summary" : "topic-discard",
+        "description" : "discards the topic",
         "operationId" : "topic_discard",
         "parameters" : [ {
           "in" : "header",
@@ -10637,7 +10865,9 @@
     },
     "/game/topic-lock" : {
       "post" : {
-        "summary" : "locks modification and prospect creation",
+        "tags" : [ "game" ],
+        "summary" : "topic-lock",
+        "description" : "locks modification and prospect creation",
         "operationId" : "topic_lock",
         "parameters" : [ {
           "in" : "header",
@@ -10763,7 +10993,9 @@
     },
     "/game/topic-pause-trading" : {
       "post" : {
-        "summary" : "pauses trading",
+        "tags" : [ "game" ],
+        "summary" : "topic-pause-trading",
+        "description" : "pauses trading",
         "operationId" : "topic_pause_trading",
         "parameters" : [ {
           "in" : "header",
@@ -10876,7 +11108,9 @@
     },
     "/game/topic-start-allocation" : {
       "post" : {
-        "summary" : "start topic allocation",
+        "tags" : [ "game" ],
+        "summary" : "topic-start-allocation",
+        "description" : "start topic allocation",
         "operationId" : "topic_start_allocation",
         "parameters" : [ {
           "in" : "header",
@@ -10989,7 +11223,9 @@
     },
     "/game/topic-start-registration" : {
       "post" : {
-        "summary" : "starts topic registration",
+        "tags" : [ "game" ],
+        "summary" : "topic-start-registration",
+        "description" : "starts topic registration",
         "operationId" : "topic_start_registration",
         "parameters" : [ {
           "in" : "header",
@@ -11102,7 +11338,9 @@
     },
     "/game/topic-start-resolution" : {
       "post" : {
-        "summary" : "finalises trading",
+        "tags" : [ "game" ],
+        "summary" : "topic-start-resolution",
+        "description" : "finalises trading",
         "operationId" : "topic_start_resolution",
         "parameters" : [ {
           "in" : "header",
@@ -11213,7 +11451,9 @@
     },
     "/game/topic-start-trading" : {
       "post" : {
-        "summary" : "starts trading",
+        "tags" : [ "game" ],
+        "summary" : "topic-start-trading",
+        "description" : "starts trading",
         "operationId" : "topic_start_trading",
         "parameters" : [ {
           "in" : "header",
@@ -11326,7 +11566,9 @@
     },
     "/game/topic-start-verdict" : {
       "post" : {
-        "summary" : "starts the verdict",
+        "tags" : [ "game" ],
+        "summary" : "topic-start-verdict",
+        "description" : "starts the verdict",
         "operationId" : "topic_start_verdict",
         "parameters" : [ {
           "in" : "header",
@@ -11456,7 +11698,9 @@
     },
     "/game/topic-stop-trading" : {
       "post" : {
-        "summary" : "stops trading",
+        "tags" : [ "game" ],
+        "summary" : "topic-stop-trading",
+        "description" : "stops trading",
         "operationId" : "topic_stop_trading",
         "parameters" : [ {
           "in" : "header",
@@ -11569,7 +11813,9 @@
     },
     "/game/topic-undiscard" : {
       "post" : {
-        "summary" : "reinitiates the topic",
+        "tags" : [ "game" ],
+        "summary" : "topic-undiscard",
+        "description" : "reinitiates the topic",
         "operationId" : "topic_undiscard",
         "parameters" : [ {
           "in" : "header",
@@ -11689,7 +11935,9 @@
     },
     "/game/verdict-announce" : {
       "post" : {
-        "summary" : "switch function between single and judge functions",
+        "tags" : [ "game" ],
+        "summary" : "verdict-announce",
+        "description" : "switch function between single and judge functions",
         "operationId" : "verdict_announce",
         "parameters" : [ {
           "in" : "header",
@@ -11781,7 +12029,9 @@
     },
     "/game/verdict-lock" : {
       "post" : {
-        "summary" : "locks the verdict",
+        "tags" : [ "game" ],
+        "summary" : "verdict-lock",
+        "description" : "locks the verdict",
         "operationId" : "verdict_lock",
         "parameters" : [ {
           "in" : "header",
@@ -11867,7 +12117,9 @@
     },
     "/helper/all-routes" : {
       "post" : {
-        "summary" : "gets all routes",
+        "tags" : [ "helper" ],
+        "summary" : "all-routes",
+        "description" : "gets all routes",
         "operationId" : "helper_all_routes",
         "requestBody" : {
           "content" : {
@@ -11910,7 +12162,9 @@
     },
     "/helper/id" : {
       "post" : {
-        "summary" : "returns the account id",
+        "tags" : [ "helper" ],
+        "summary" : "id",
+        "description" : "returns the account id",
         "operationId" : "helper_id",
         "parameters" : [ {
           "in" : "header",
@@ -11965,7 +12219,9 @@
     },
     "/helper/ping" : {
       "post" : {
-        "summary" : "returns a ping response",
+        "tags" : [ "helper" ],
+        "summary" : "ping",
+        "description" : "returns a ping response",
         "operationId" : "helper_ping",
         "requestBody" : {
           "content" : {
@@ -12008,7 +12264,9 @@
     },
     "/history/contract/1day" : {
       "post" : {
-        "summary" : "gets 1day order history",
+        "tags" : [ "history" ],
+        "summary" : "1day",
+        "description" : "gets 1day order history",
         "operationId" : "get_contract_history_1day",
         "requestBody" : {
           "content" : {
@@ -12086,7 +12344,9 @@
     },
     "/history/contract/1hr" : {
       "post" : {
-        "summary" : "gets 1hr order history",
+        "tags" : [ "history" ],
+        "summary" : "1hr",
+        "description" : "gets 1hr order history",
         "operationId" : "get_contract_history_1hr",
         "requestBody" : {
           "content" : {
@@ -12164,7 +12424,9 @@
     },
     "/history/contract/30sec" : {
       "post" : {
-        "summary" : "gets 30sec order history",
+        "tags" : [ "history" ],
+        "summary" : "30sec",
+        "description" : "gets 30sec order history",
         "operationId" : "get_contract_history_30sec",
         "requestBody" : {
           "content" : {
@@ -13126,7 +13388,9 @@
     },
     "/history/contract/5min" : {
       "post" : {
-        "summary" : "gets 5min order history",
+        "tags" : [ "history" ],
+        "summary" : "5min",
+        "description" : "gets 5min order history",
         "operationId" : "get_contract_history_5min",
         "requestBody" : {
           "content" : {
@@ -13309,7 +13573,9 @@
     },
     "/history/contract/init" : {
       "post" : {
-        "summary" : "gets the initial history",
+        "tags" : [ "history" ],
+        "summary" : "init",
+        "description" : "gets the initial history",
         "operationId" : "get_contract_history_init",
         "requestBody" : {
           "content" : {
@@ -13359,7 +13625,9 @@
     },
     "/history/contract/sparkline" : {
       "post" : {
-        "summary" : "gets sparklines for order history",
+        "tags" : [ "history" ],
+        "summary" : "sparkline",
+        "description" : "gets sparklines for order history",
         "operationId" : "get_contract_history_sparklines",
         "requestBody" : {
           "content" : {
@@ -13412,7 +13680,9 @@
     },
     "/history/stake/1day" : {
       "post" : {
-        "summary" : "gets 1day stake history",
+        "tags" : [ "history" ],
+        "summary" : "1day",
+        "description" : "gets 1day stake history",
         "operationId" : "get_stake_1day",
         "requestBody" : {
           "content" : {
@@ -13471,7 +13741,9 @@
     },
     "/history/stake/1hr" : {
       "post" : {
-        "summary" : "gets 1hr stake history",
+        "tags" : [ "history" ],
+        "summary" : "1hr",
+        "description" : "gets 1hr stake history",
         "operationId" : "get_stake_1hr",
         "requestBody" : {
           "content" : {
@@ -13530,7 +13802,9 @@
     },
     "/history/stake/30sec" : {
       "post" : {
-        "summary" : "gets 30sec stake history",
+        "tags" : [ "history" ],
+        "summary" : "30sec",
+        "description" : "gets 30sec stake history",
         "operationId" : "get_stake_30sec",
         "requestBody" : {
           "content" : {
@@ -13589,7 +13863,9 @@
     },
     "/history/stake/5min" : {
       "post" : {
-        "summary" : "gets 5min stake history",
+        "tags" : [ "history" ],
+        "summary" : "5min",
+        "description" : "gets 5min stake history",
         "operationId" : "get_stake_5min",
         "requestBody" : {
           "content" : {
@@ -13648,7 +13924,9 @@
     },
     "/history/stake/sparkline" : {
       "post" : {
-        "summary" : "gets stake sparklines",
+        "tags" : [ "history" ],
+        "summary" : "sparkline",
+        "description" : "gets stake sparklines",
         "operationId" : "get_stake_sparklines",
         "requestBody" : {
           "content" : {
@@ -13698,7 +13976,9 @@
     },
     "/history/swap/1day" : {
       "post" : {
-        "summary" : "gets 1day order history",
+        "tags" : [ "history" ],
+        "summary" : "1day",
+        "description" : "gets 1day order history",
         "operationId" : "get_swap_history_1day",
         "requestBody" : {
           "content" : {
@@ -13776,7 +14056,9 @@
     },
     "/history/swap/1hr" : {
       "post" : {
-        "summary" : "gets 1hr order history",
+        "tags" : [ "history" ],
+        "summary" : "1hr",
+        "description" : "gets 1hr order history",
         "operationId" : "get_swap_history_1hr",
         "requestBody" : {
           "content" : {
@@ -13854,7 +14136,9 @@
     },
     "/history/swap/30sec" : {
       "post" : {
-        "summary" : "gets 30sec order history",
+        "tags" : [ "history" ],
+        "summary" : "30sec",
+        "description" : "gets 30sec order history",
         "operationId" : "get_swap_history_30sec",
         "requestBody" : {
           "content" : {
@@ -14772,7 +15056,9 @@
     },
     "/history/swap/5min" : {
       "post" : {
-        "summary" : "gets 5min order history",
+        "tags" : [ "history" ],
+        "summary" : "5min",
+        "description" : "gets 5min order history",
         "operationId" : "get_swap_history_5min",
         "requestBody" : {
           "content" : {
@@ -14955,7 +15241,9 @@
     },
     "/history/swap/init" : {
       "post" : {
-        "summary" : "gets the initial history",
+        "tags" : [ "history" ],
+        "summary" : "init",
+        "description" : "gets the initial history",
         "operationId" : "get_swap_history_init",
         "requestBody" : {
           "content" : {
@@ -15005,7 +15293,9 @@
     },
     "/history/swap/sparkline" : {
       "post" : {
-        "summary" : "gets sparklines for order history",
+        "tags" : [ "history" ],
+        "summary" : "sparkline",
+        "description" : "gets sparklines for order history",
         "operationId" : "get_swap_history_sparklines",
         "requestBody" : {
           "content" : {
@@ -15058,7 +15348,9 @@
     },
     "/image/upload" : {
       "post" : {
-        "summary" : "upload image",
+        "tags" : [ "image" ],
+        "summary" : "upload",
+        "description" : "upload image",
         "operationId" : "upload_image",
         "requestBody" : {
           "content" : {
@@ -15108,7 +15400,9 @@
     },
     "/imagekit/token" : {
       "post" : {
-        "summary" : "generates an auth record for logging into image kit",
+        "tags" : [ "imagekit" ],
+        "summary" : "token",
+        "description" : "generates an auth record for logging into image kit",
         "operationId" : "imagekit_token",
         "requestBody" : {
           "content" : {
@@ -15161,7 +15455,9 @@
     },
     "/market/browse" : {
       "post" : {
-        "summary" : "gets the market ",
+        "tags" : [ "market" ],
+        "summary" : "browse",
+        "description" : "gets the market ",
         "operationId" : "get_market",
         "requestBody" : {
           "content" : {
@@ -15208,7 +15504,9 @@
     },
     "/market/bulk" : {
       "post" : {
-        "summary" : "gets the bulk",
+        "tags" : [ "market" ],
+        "summary" : "bulk",
+        "description" : "gets the bulk",
         "operationId" : "get_market_bulk",
         "requestBody" : {
           "content" : {
@@ -15255,7 +15553,9 @@
     },
     "/market/priority-browse" : {
       "post" : {
-        "summary" : "gets market priority",
+        "tags" : [ "market" ],
+        "summary" : "priority-browse",
+        "description" : "gets market priority",
         "operationId" : "get_market_priority",
         "parameters" : [ {
           "in" : "header",
@@ -15313,7 +15613,9 @@
     },
     "/order/cancel-contract-order" : {
       "post" : {
-        "summary" : "cancels an existing order",
+        "tags" : [ "order" ],
+        "summary" : "cancel-contract-order",
+        "description" : "cancels an existing order",
         "operationId" : "cancel_contract_order",
         "parameters" : [ {
           "in" : "header",
@@ -15436,7 +15738,9 @@
     },
     "/order/cancel-swap-order" : {
       "post" : {
-        "summary" : "cancels an existing order",
+        "tags" : [ "order" ],
+        "summary" : "cancel-swap-order",
+        "description" : "cancels an existing order",
         "operationId" : "cancel_swap_order",
         "parameters" : [ {
           "in" : "header",
@@ -15558,7 +15862,9 @@
     },
     "/order/place-contract-order" : {
       "post" : {
-        "summary" : "creates a place order",
+        "tags" : [ "order" ],
+        "summary" : "place-contract-order",
+        "description" : "creates a place order",
         "operationId" : "place_contract_order",
         "parameters" : [ {
           "in" : "header",
@@ -15731,7 +16037,9 @@
     },
     "/order/place-swap-order" : {
       "post" : {
-        "summary" : "creates a place order",
+        "tags" : [ "order" ],
+        "summary" : "place-swap-order",
+        "description" : "creates a place order",
         "operationId" : "place_swap_order",
         "parameters" : [ {
           "in" : "header",
@@ -15898,7 +16206,9 @@
     },
     "/organisation/organisation-add-buy-in" : {
       "post" : {
-        "summary" : "adds buy in",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-add-buy-in",
+        "description" : "adds buy in",
         "operationId" : "organisation_add_buy_in",
         "parameters" : [ {
           "in" : "header",
@@ -16006,7 +16316,9 @@
     },
     "/organisation/organisation-add-member" : {
       "post" : {
-        "summary" : "adds an organisation member",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-add-member",
+        "description" : "adds an organisation member",
         "operationId" : "organisation_add_member",
         "parameters" : [ {
           "in" : "header",
@@ -16122,7 +16434,9 @@
     },
     "/organisation/organisation-add-rake" : {
       "post" : {
-        "summary" : "adds rake to organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-add-rake",
+        "description" : "adds rake to organisation",
         "operationId" : "organisation_add_rake",
         "parameters" : [ {
           "in" : "header",
@@ -16261,7 +16575,9 @@
     },
     "/organisation/organisation-add-staking" : {
       "post" : {
-        "summary" : "adds staking to organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-add-staking",
+        "description" : "adds staking to organisation",
         "operationId" : "organisation_add_staking",
         "parameters" : [ {
           "in" : "header",
@@ -16364,7 +16680,9 @@
     },
     "/organisation/organisation-add-star" : {
       "post" : {
-        "summary" : "stars an organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-add-star",
+        "description" : "stars an organisation",
         "operationId" : "organisation_add_star",
         "parameters" : [ {
           "in" : "header",
@@ -16460,7 +16778,9 @@
     },
     "/organisation/organisation-create" : {
       "post" : {
-        "summary" : "creates an organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-create",
+        "description" : "creates an organisation",
         "operationId" : "organisation_create",
         "parameters" : [ {
           "in" : "header",
@@ -16518,7 +16838,9 @@
     },
     "/organisation/organisation-leave-as-member" : {
       "post" : {
-        "summary" : "leaves as a member",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-leave-as-member",
+        "description" : "leaves as a member",
         "operationId" : "organisation_leave_as_member",
         "parameters" : [ {
           "in" : "header",
@@ -16621,7 +16943,9 @@
     },
     "/organisation/organisation-modify" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-modify",
+        "description" : "",
         "operationId" : "organisation_modify",
         "parameters" : [ {
           "in" : "header",
@@ -16682,7 +17006,9 @@
     },
     "/organisation/organisation-remove" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove",
+        "description" : "",
         "operationId" : "organisation_remove",
         "parameters" : [ {
           "in" : "header",
@@ -16778,7 +17104,9 @@
     },
     "/organisation/organisation-remove-buy-in" : {
       "post" : {
-        "summary" : "removes buy in",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove-buy-in",
+        "description" : "removes buy in",
         "operationId" : "organisation_remove_buy_in",
         "parameters" : [ {
           "in" : "header",
@@ -16869,7 +17197,9 @@
     },
     "/organisation/organisation-remove-member" : {
       "post" : {
-        "summary" : "removes a member",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove-member",
+        "description" : "removes a member",
         "operationId" : "organisation_remove_member",
         "parameters" : [ {
           "in" : "header",
@@ -16977,7 +17307,9 @@
     },
     "/organisation/organisation-remove-rake" : {
       "post" : {
-        "summary" : "removes a rake",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove-rake",
+        "description" : "removes a rake",
         "operationId" : "organisation_remove_rake",
         "parameters" : [ {
           "in" : "header",
@@ -17074,7 +17406,9 @@
     },
     "/organisation/organisation-remove-staking" : {
       "post" : {
-        "summary" : "removes staking from organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove-staking",
+        "description" : "removes staking from organisation",
         "operationId" : "organisation_remove_staking",
         "parameters" : [ {
           "in" : "header",
@@ -17165,7 +17499,9 @@
     },
     "/organisation/organisation-remove-star" : {
       "post" : {
-        "summary" : "unstars an organisation",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-remove-star",
+        "description" : "unstars an organisation",
         "operationId" : "organisation_remove_star",
         "parameters" : [ {
           "in" : "header",
@@ -17263,7 +17599,9 @@
     },
     "/organisation/organisation-set-public-as-member" : {
       "post" : {
-        "summary" : "sets public flag",
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-set-public-as-member",
+        "description" : "sets public flag",
         "operationId" : "organisation_set_public_as_member",
         "parameters" : [ {
           "in" : "header",
@@ -17362,7 +17700,9 @@
     },
     "/organisation/organisation-transfer-ownership" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "organisation" ],
+        "summary" : "organisation-transfer-ownership",
+        "description" : "",
         "operationId" : "organisation_transfer_ownership",
         "parameters" : [ {
           "in" : "header",
@@ -17423,7 +17763,9 @@
     },
     "/room/room-activate" : {
       "post" : {
-        "summary" : "activates the room",
+        "tags" : [ "room" ],
+        "summary" : "room-activate",
+        "description" : "activates the room",
         "operationId" : "room_activate",
         "parameters" : [ {
           "in" : "header",
@@ -17520,7 +17862,9 @@
     },
     "/room/room-add-member" : {
       "post" : {
-        "summary" : "adds an room member",
+        "tags" : [ "room" ],
+        "summary" : "room-add-member",
+        "description" : "adds an room member",
         "operationId" : "room_add_member",
         "parameters" : [ {
           "in" : "header",
@@ -17636,7 +17980,9 @@
     },
     "/room/room-add-star" : {
       "post" : {
-        "summary" : "stars an room",
+        "tags" : [ "room" ],
+        "summary" : "room-add-star",
+        "description" : "stars an room",
         "operationId" : "room_add_star",
         "parameters" : [ {
           "in" : "header",
@@ -17732,7 +18078,9 @@
     },
     "/room/room-check-available" : {
       "post" : {
-        "summary" : "checks thet the current code is available",
+        "tags" : [ "room" ],
+        "summary" : "room-check-available",
+        "description" : "checks thet the current code is available",
         "operationId" : "room_check_available",
         "parameters" : [ {
           "in" : "header",
@@ -17799,7 +18147,9 @@
     },
     "/room/room-create" : {
       "post" : {
-        "summary" : "creates a room",
+        "tags" : [ "room" ],
+        "summary" : "room-create",
+        "description" : "creates a room",
         "operationId" : "room_create",
         "parameters" : [ {
           "in" : "header",
@@ -17857,7 +18207,9 @@
     },
     "/room/room-deactivate" : {
       "post" : {
-        "summary" : "activates the room",
+        "tags" : [ "room" ],
+        "summary" : "room-deactivate",
+        "description" : "activates the room",
         "operationId" : "room_deactivate",
         "parameters" : [ {
           "in" : "header",
@@ -17954,7 +18306,9 @@
     },
     "/room/room-downvote-wall" : {
       "post" : {
-        "summary" : "downvotes on the wall",
+        "tags" : [ "room" ],
+        "summary" : "room-downvote-wall",
+        "description" : "downvotes on the wall",
         "operationId" : "room_downvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -18042,7 +18396,9 @@
     },
     "/room/room-edit-wall" : {
       "post" : {
-        "summary" : "edits the comment on the wall",
+        "tags" : [ "room" ],
+        "summary" : "room-edit-wall",
+        "description" : "edits the comment on the wall",
         "operationId" : "room_edit_wall",
         "parameters" : [ {
           "in" : "header",
@@ -18125,7 +18481,9 @@
     },
     "/room/room-evm-account-close-request" : {
       "post" : {
-        "summary" : "creates an evm-account close request",
+        "tags" : [ "room" ],
+        "summary" : "room-evm-account-close-request",
+        "description" : "creates an evm-account close request",
         "operationId" : "room_evm_account_close_request",
         "parameters" : [ {
           "in" : "header",
@@ -18186,7 +18544,9 @@
     },
     "/room/room-evm-account-open-request" : {
       "post" : {
-        "summary" : "creates an open account request for room",
+        "tags" : [ "room" ],
+        "summary" : "room-evm-account-open-request",
+        "description" : "creates an open account request for room",
         "operationId" : "room_evm_account_open_request",
         "parameters" : [ {
           "in" : "header",
@@ -18362,7 +18722,9 @@
     },
     "/room/room-evm-create-vault-request" : {
       "post" : {
-        "summary" : "creates an evm vault request",
+        "tags" : [ "room" ],
+        "summary" : "room-evm-create-vault-request",
+        "description" : "creates an evm vault request",
         "operationId" : "room_evm_create_vault_request",
         "parameters" : [ {
           "in" : "header",
@@ -18496,7 +18858,9 @@
     },
     "/room/room-gas-asset-recharge" : {
       "post" : {
-        "summary" : "recharges an asset",
+        "tags" : [ "room" ],
+        "summary" : "room-gas-asset-recharge",
+        "description" : "recharges an asset",
         "operationId" : "room_gas_asset_recharge",
         "parameters" : [ {
           "in" : "header",
@@ -18628,7 +18992,9 @@
     },
     "/room/room-join-invite-accept" : {
       "post" : {
-        "summary" : "accepts an invite for an organisation",
+        "tags" : [ "room" ],
+        "summary" : "room-join-invite-accept",
+        "description" : "accepts an invite for an organisation",
         "operationId" : "room_join_invite_accept",
         "parameters" : [ {
           "in" : "header",
@@ -18742,7 +19108,9 @@
     },
     "/room/room-join-invite-cancel" : {
       "post" : {
-        "summary" : "cancels a sent invitation",
+        "tags" : [ "room" ],
+        "summary" : "room-join-invite-cancel",
+        "description" : "cancels a sent invitation",
         "operationId" : "room_join_invite_cancel",
         "parameters" : [ {
           "in" : "header",
@@ -18838,7 +19206,9 @@
     },
     "/room/room-join-invite-reject" : {
       "post" : {
-        "summary" : "rejects a sent invitation",
+        "tags" : [ "room" ],
+        "summary" : "room-join-invite-reject",
+        "description" : "rejects a sent invitation",
         "operationId" : "room_join_invite_reject",
         "parameters" : [ {
           "in" : "header",
@@ -18934,7 +19304,9 @@
     },
     "/room/room-join-invite-send" : {
       "post" : {
-        "summary" : "sends an invite given an organisation",
+        "tags" : [ "room" ],
+        "summary" : "room-join-invite-send",
+        "description" : "sends an invite given an organisation",
         "operationId" : "room_join_invite_send",
         "parameters" : [ {
           "in" : "header",
@@ -19039,7 +19411,9 @@
     },
     "/room/room-join-request-accept" : {
       "post" : {
-        "summary" : "accepts a join request",
+        "tags" : [ "room" ],
+        "summary" : "room-join-request-accept",
+        "description" : "accepts a join request",
         "operationId" : "room_join_request_accept",
         "parameters" : [ {
           "in" : "header",
@@ -19151,7 +19525,9 @@
     },
     "/room/room-join-request-cancel" : {
       "post" : {
-        "summary" : "cancels a join request",
+        "tags" : [ "room" ],
+        "summary" : "room-join-request-cancel",
+        "description" : "cancels a join request",
         "operationId" : "room_join_request_cancel",
         "parameters" : [ {
           "in" : "header",
@@ -19240,7 +19616,9 @@
     },
     "/room/room-join-request-reject" : {
       "post" : {
-        "summary" : "rejects a join request",
+        "tags" : [ "room" ],
+        "summary" : "room-join-request-reject",
+        "description" : "rejects a join request",
         "operationId" : "room_join_request_reject",
         "parameters" : [ {
           "in" : "header",
@@ -19334,7 +19712,9 @@
     },
     "/room/room-join-request-send" : {
       "post" : {
-        "summary" : "sends a join request",
+        "tags" : [ "room" ],
+        "summary" : "room-join-request-send",
+        "description" : "sends a join request",
         "operationId" : "room_join_request_send",
         "parameters" : [ {
           "in" : "header",
@@ -19423,7 +19803,9 @@
     },
     "/room/room-modify" : {
       "post" : {
-        "summary" : "asserts that room is an expanded type",
+        "tags" : [ "room" ],
+        "summary" : "room-modify",
+        "description" : "asserts that room is an expanded type",
         "operationId" : "room_modify",
         "parameters" : [ {
           "in" : "header",
@@ -19530,7 +19912,9 @@
     },
     "/room/room-post-wall" : {
       "post" : {
-        "summary" : "posts a message on wall",
+        "tags" : [ "room" ],
+        "summary" : "room-post-wall",
+        "description" : "posts a message on wall",
         "operationId" : "room_post_wall",
         "parameters" : [ {
           "in" : "header",
@@ -19638,7 +20022,9 @@
     },
     "/room/room-remove" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "room" ],
+        "summary" : "room-remove",
+        "description" : "",
         "operationId" : "room_remove",
         "parameters" : [ {
           "in" : "header",
@@ -19696,7 +20082,9 @@
     },
     "/room/room-remove-member" : {
       "post" : {
-        "summary" : "removes a member",
+        "tags" : [ "room" ],
+        "summary" : "room-remove-member",
+        "description" : "removes a member",
         "operationId" : "room_remove_member",
         "parameters" : [ {
           "in" : "header",
@@ -19804,7 +20192,9 @@
     },
     "/room/room-remove-star" : {
       "post" : {
-        "summary" : "unstars an room",
+        "tags" : [ "room" ],
+        "summary" : "room-remove-star",
+        "description" : "unstars an room",
         "operationId" : "room_remove_star",
         "parameters" : [ {
           "in" : "header",
@@ -19902,7 +20292,9 @@
     },
     "/room/room-set-official" : {
       "post" : {
-        "summary" : "sets the official room",
+        "tags" : [ "room" ],
+        "summary" : "room-set-official",
+        "description" : "sets the official room",
         "operationId" : "room_set_official",
         "requestBody" : {
           "content" : {
@@ -19996,7 +20388,9 @@
     },
     "/room/room-unvote-wall" : {
       "post" : {
-        "summary" : "removes a user's vote from room wall",
+        "tags" : [ "room" ],
+        "summary" : "room-unvote-wall",
+        "description" : "removes a user's vote from room wall",
         "operationId" : "room_unvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -20104,7 +20498,9 @@
     },
     "/room/room-upvote-wall" : {
       "post" : {
-        "summary" : "upvotes the comment on the wall",
+        "tags" : [ "room" ],
+        "summary" : "room-upvote-wall",
+        "description" : "upvotes the comment on the wall",
         "operationId" : "room_upvote_wall",
         "parameters" : [ {
           "in" : "header",
@@ -20210,7 +20606,9 @@
     },
     "/social/coinbase/info" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "info",
+        "description" : "",
         "operationId" : "oauth_coinbase_info",
         "requestBody" : {
           "content" : {
@@ -20257,7 +20655,9 @@
     },
     "/social/coinbase/is-linked" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "is-linked",
+        "description" : "",
         "operationId" : "oauth_coinbase_is_linked",
         "requestBody" : {
           "content" : {
@@ -20307,7 +20707,9 @@
     },
     "/social/coinbase/link" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "link",
+        "description" : "",
         "operationId" : "oauth_coinbase_link",
         "requestBody" : {
           "content" : {
@@ -20357,7 +20759,9 @@
     },
     "/social/coinbase/login" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "login",
+        "description" : "",
         "operationId" : "oauth_coinbase_login",
         "requestBody" : {
           "content" : {
@@ -20404,7 +20808,9 @@
     },
     "/social/coinbase/register" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "register",
+        "description" : "",
         "operationId" : "oauth_coinbase_register",
         "requestBody" : {
           "content" : {
@@ -20451,7 +20857,9 @@
     },
     "/social/facebook/info" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "info",
+        "description" : "",
         "operationId" : "oauth_facebook_info",
         "requestBody" : {
           "content" : {
@@ -20498,7 +20906,9 @@
     },
     "/social/facebook/is-linked" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "is-linked",
+        "description" : "",
         "operationId" : "oauth_facebook_is_linked",
         "requestBody" : {
           "content" : {
@@ -20548,7 +20958,9 @@
     },
     "/social/facebook/link" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "link",
+        "description" : "",
         "operationId" : "oauth_facebook_link",
         "requestBody" : {
           "content" : {
@@ -20598,7 +21010,9 @@
     },
     "/social/facebook/login" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "login",
+        "description" : "",
         "operationId" : "oauth_facebook_login",
         "requestBody" : {
           "content" : {
@@ -20645,7 +21059,9 @@
     },
     "/social/facebook/register" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "register",
+        "description" : "",
         "operationId" : "oauth_facebook_register",
         "requestBody" : {
           "content" : {
@@ -20692,7 +21108,9 @@
     },
     "/social/github/info" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "info",
+        "description" : "",
         "operationId" : "oauth_github_info",
         "requestBody" : {
           "content" : {
@@ -20739,7 +21157,9 @@
     },
     "/social/github/is-linked" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "is-linked",
+        "description" : "",
         "operationId" : "oauth_github_is_linked",
         "requestBody" : {
           "content" : {
@@ -20789,7 +21209,9 @@
     },
     "/social/github/link" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "link",
+        "description" : "",
         "operationId" : "oauth_github_link",
         "requestBody" : {
           "content" : {
@@ -20839,7 +21261,9 @@
     },
     "/social/github/login" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "login",
+        "description" : "",
         "operationId" : "oauth_github_login",
         "requestBody" : {
           "content" : {
@@ -20886,7 +21310,9 @@
     },
     "/social/github/register" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "social" ],
+        "summary" : "register",
+        "description" : "",
         "operationId" : "oauth_github_register",
         "requestBody" : {
           "content" : {
@@ -20933,7 +21359,9 @@
     },
     "/social/token" : {
       "post" : {
-        "summary" : "gets an access token given provider and code",
+        "tags" : [ "social" ],
+        "summary" : "token",
+        "description" : "gets an access token given provider and code",
         "operationId" : "oauth_access_token",
         "requestBody" : {
           "content" : {
@@ -20992,7 +21420,9 @@
     },
     "/swap/swap-add-star" : {
       "post" : {
-        "summary" : "adds a star to swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-add-star",
+        "description" : "adds a star to swap",
         "operationId" : "swap_add_star",
         "parameters" : [ {
           "in" : "header",
@@ -21050,7 +21480,9 @@
     },
     "/swap/swap-allocate-input" : {
       "post" : {
-        "summary" : "starts the allocation process",
+        "tags" : [ "swap" ],
+        "summary" : "swap-allocate-input",
+        "description" : "starts the allocation process",
         "operationId" : "swap_allocate_input",
         "parameters" : [ {
           "in" : "header",
@@ -21164,7 +21596,9 @@
     },
     "/swap/swap-allocate-process" : {
       "post" : {
-        "summary" : "starts the allocation process",
+        "tags" : [ "swap" ],
+        "summary" : "swap-allocate-process",
+        "description" : "starts the allocation process",
         "operationId" : "swap_allocate_process",
         "parameters" : [ {
           "in" : "header",
@@ -21222,7 +21656,9 @@
     },
     "/swap/swap-check-available" : {
       "post" : {
-        "summary" : "checks that that the swap is available",
+        "tags" : [ "swap" ],
+        "summary" : "swap-check-available",
+        "description" : "checks that that the swap is available",
         "operationId" : "swap_check_available",
         "parameters" : [ {
           "in" : "header",
@@ -21289,7 +21725,9 @@
     },
     "/swap/swap-complete" : {
       "post" : {
-        "summary" : "completes the swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-complete",
+        "description" : "completes the swap",
         "operationId" : "swap_complete",
         "parameters" : [ {
           "in" : "header",
@@ -21422,7 +21860,9 @@
     },
     "/swap/swap-confirm" : {
       "post" : {
-        "summary" : "confirms the swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-confirm",
+        "description" : "confirms the swap",
         "operationId" : "swap_confirm",
         "parameters" : [ {
           "in" : "header",
@@ -21483,7 +21923,9 @@
     },
     "/swap/swap-create" : {
       "post" : {
-        "summary" : "creates a swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-create",
+        "description" : "creates a swap",
         "operationId" : "swap_create",
         "parameters" : [ {
           "in" : "header",
@@ -21660,7 +22102,9 @@
     },
     "/swap/swap-downvote-comment" : {
       "post" : {
-        "summary" : "downvotes a comment on swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-downvote-comment",
+        "description" : "downvotes a comment on swap",
         "operationId" : "swap_downvote_comment",
         "parameters" : [ {
           "in" : "header",
@@ -21721,7 +22165,9 @@
     },
     "/swap/swap-edit-comment" : {
       "post" : {
-        "summary" : "edits a comment on swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-edit-comment",
+        "description" : "edits a comment on swap",
         "operationId" : "swap_edit_comment",
         "parameters" : [ {
           "in" : "header",
@@ -21785,7 +22231,9 @@
     },
     "/swap/swap-modify" : {
       "post" : {
-        "summary" : null,
+        "tags" : [ "swap" ],
+        "summary" : "swap-modify",
+        "description" : "",
         "operationId" : "swap_modify",
         "parameters" : [ {
           "in" : "header",
@@ -21846,7 +22294,9 @@
     },
     "/swap/swap-pause-trading" : {
       "post" : {
-        "summary" : "pauses trading when confirmed",
+        "tags" : [ "swap" ],
+        "summary" : "swap-pause-trading",
+        "description" : "pauses trading when confirmed",
         "operationId" : "swap_pause_trading",
         "parameters" : [ {
           "in" : "header",
@@ -21960,7 +22410,9 @@
     },
     "/swap/swap-post-comment" : {
       "post" : {
-        "summary" : "posts a comment to swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-post-comment",
+        "description" : "posts a comment to swap",
         "operationId" : "swap_post_comment",
         "parameters" : [ {
           "in" : "header",
@@ -22024,7 +22476,9 @@
     },
     "/swap/swap-remove" : {
       "post" : {
-        "summary" : "removes the swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-remove",
+        "description" : "removes the swap",
         "operationId" : "swap_remove",
         "parameters" : [ {
           "in" : "header",
@@ -22130,7 +22584,9 @@
     },
     "/swap/swap-remove-star" : {
       "post" : {
-        "summary" : "removes a star from swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-remove-star",
+        "description" : "removes a star from swap",
         "operationId" : "swap_remove_star",
         "parameters" : [ {
           "in" : "header",
@@ -22188,7 +22644,9 @@
     },
     "/swap/swap-reset" : {
       "post" : {
-        "summary" : "resets the swap after complete",
+        "tags" : [ "swap" ],
+        "summary" : "swap-reset",
+        "description" : "resets the swap after complete",
         "operationId" : "swap_reset",
         "parameters" : [ {
           "in" : "header",
@@ -22249,7 +22707,9 @@
     },
     "/swap/swap-resolve" : {
       "post" : {
-        "summary" : "resolves incomplete orders",
+        "tags" : [ "swap" ],
+        "summary" : "swap-resolve",
+        "description" : "resolves incomplete orders",
         "operationId" : "swap_resolve",
         "parameters" : [ {
           "in" : "header",
@@ -22356,7 +22816,9 @@
     },
     "/swap/swap-start-allocation" : {
       "post" : {
-        "summary" : "starts the swap allocation",
+        "tags" : [ "swap" ],
+        "summary" : "swap-start-allocation",
+        "description" : "starts the swap allocation",
         "operationId" : "swap_start_allocation",
         "parameters" : [ {
           "in" : "header",
@@ -22470,7 +22932,9 @@
     },
     "/swap/swap-start-registration" : {
       "post" : {
-        "summary" : "starts a given topic for registration",
+        "tags" : [ "swap" ],
+        "summary" : "swap-start-registration",
+        "description" : "starts a given topic for registration",
         "operationId" : "swap_start_registration",
         "parameters" : [ {
           "in" : "header",
@@ -22584,7 +23048,9 @@
     },
     "/swap/swap-start-resolution" : {
       "post" : {
-        "summary" : "finalises trading for topic",
+        "tags" : [ "swap" ],
+        "summary" : "swap-start-resolution",
+        "description" : "finalises trading for topic",
         "operationId" : "swap_start_resolution",
         "parameters" : [ {
           "in" : "header",
@@ -22698,7 +23164,9 @@
     },
     "/swap/swap-start-trading" : {
       "post" : {
-        "summary" : "starts trading when confirmed",
+        "tags" : [ "swap" ],
+        "summary" : "swap-start-trading",
+        "description" : "starts trading when confirmed",
         "operationId" : "swap_start_trading",
         "parameters" : [ {
           "in" : "header",
@@ -22812,7 +23280,9 @@
     },
     "/swap/swap-stop-trading" : {
       "post" : {
-        "summary" : "stops trading",
+        "tags" : [ "swap" ],
+        "summary" : "swap-stop-trading",
+        "description" : "stops trading",
         "operationId" : "swap_stop_trading",
         "parameters" : [ {
           "in" : "header",
@@ -22926,7 +23396,9 @@
     },
     "/swap/swap-unvote-comment" : {
       "post" : {
-        "summary" : "clears the vote on a comment",
+        "tags" : [ "swap" ],
+        "summary" : "swap-unvote-comment",
+        "description" : "clears the vote on a comment",
         "operationId" : "swap_unvote_comment",
         "parameters" : [ {
           "in" : "header",
@@ -22987,7 +23459,9 @@
     },
     "/swap/swap-upvote-comment" : {
       "post" : {
-        "summary" : "upvotes a comment on swap",
+        "tags" : [ "swap" ],
+        "summary" : "swap-upvote-comment",
+        "description" : "upvotes a comment on swap",
         "operationId" : "swap_upvote_comment",
         "parameters" : [ {
           "in" : "header",
@@ -23048,7 +23522,9 @@
     },
     "/view/bulk" : {
       "post" : {
-        "summary" : "allows bulk views to be processed and returned in single structure",
+        "tags" : [ "view" ],
+        "summary" : "bulk",
+        "description" : "allows bulk views to be processed and returned in single structure",
         "operationId" : "view_bulk",
         "requestBody" : {
           "content" : {
@@ -23095,7 +23571,9 @@
     },
     "/view/q" : {
       "post" : {
-        "summary" : "view select",
+        "tags" : [ "view" ],
+        "summary" : "q",
+        "description" : "view select",
         "operationId" : "view_query",
         "requestBody" : {
           "content" : {
@@ -23159,7 +23637,9 @@
     },
     "/view/q-nosync" : {
       "post" : {
-        "summary" : "same as `view-query` with the purpose of getting ids",
+        "tags" : [ "view" ],
+        "summary" : "q-nosync",
+        "description" : "same as `view-query` with the purpose of getting ids",
         "operationId" : "view_query_nosync",
         "requestBody" : {
           "content" : {
@@ -23172,315 +23652,6 @@
                   },
                   "qm" : {
                     "type" : "object"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "eam/delta" : {
-      "post" : {
-        "summary" : "gets the delta event stream",
-        "operationId" : "delta_redis_main",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : { }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "eam/priority" : {
-      "post" : {
-        "summary" : "gets the priority event stream",
-        "operationId" : "priority_redis_main",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : { }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "eam/ticker" : {
-      "post" : {
-        "summary" : "syncs the event to listeners",
-        "operationId" : "ticker_redis_main",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : { }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "eam/user" : {
-      "post" : {
-        "summary" : "user main loop",
-        "operationId" : "user_redis_main",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : { }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "eam/user/auth" : {
-      "post" : {
-        "summary" : "authorizes the token",
-        "operationId" : "authorize",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : { }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "ug/db/bulk" : {
-      "post" : {
-        "summary" : "performs the db operation",
-        "operationId" : "db_bulk",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : {
-                  "arr" : {
-                    "type" : "object"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "status" : {
-                      "type" : "string",
-                      "enum" : [ "success", "errored" ]
-                    },
-                    "data" : {
-                      "type" : "object"
-                    }
-                  },
-                  "example" : {
-                    "status" : "success",
-                    "data" : null
-                  }
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "Error"
-          }
-        }
-      }
-    },
-    "ug/market/clear" : {
-      "post" : {
-        "summary" : null,
-        "operationId" : "clear_market_data",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "object",
-                "properties" : {
-                  "k" : {
-                    "type" : "string"
                   }
                 }
               }
