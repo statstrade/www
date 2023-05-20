@@ -12265,7 +12265,7 @@
     "/history/contract/1day" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1day",
+        "summary" : "contract/1day",
         "description" : "gets 1day order history",
         "operationId" : "get_contract_history_1day",
         "requestBody" : {
@@ -12345,7 +12345,7 @@
     "/history/contract/1hr" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1hr",
+        "summary" : "contract/1hr",
         "description" : "gets 1hr order history",
         "operationId" : "get_contract_history_1hr",
         "requestBody" : {
@@ -12425,7 +12425,7 @@
     "/history/contract/30sec" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "30sec",
+        "summary" : "contract/30sec",
         "description" : "gets 30sec order history",
         "operationId" : "get_contract_history_30sec",
         "requestBody" : {
@@ -13389,7 +13389,7 @@
     "/history/contract/5min" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "5min",
+        "summary" : "contract/5min",
         "description" : "gets 5min order history",
         "operationId" : "get_contract_history_5min",
         "requestBody" : {
@@ -13574,7 +13574,7 @@
     "/history/contract/init" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "init",
+        "summary" : "contract/init",
         "description" : "gets the initial history",
         "operationId" : "get_contract_history_init",
         "requestBody" : {
@@ -13626,7 +13626,7 @@
     "/history/contract/sparkline" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "sparkline",
+        "summary" : "contract/sparkline",
         "description" : "gets sparklines for order history",
         "operationId" : "get_contract_history_sparklines",
         "requestBody" : {
@@ -13681,7 +13681,7 @@
     "/history/stake/1day" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1day",
+        "summary" : "stake/1day",
         "description" : "gets 1day stake history",
         "operationId" : "get_stake_1day",
         "requestBody" : {
@@ -13742,7 +13742,7 @@
     "/history/stake/1hr" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1hr",
+        "summary" : "stake/1hr",
         "description" : "gets 1hr stake history",
         "operationId" : "get_stake_1hr",
         "requestBody" : {
@@ -13803,7 +13803,7 @@
     "/history/stake/30sec" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "30sec",
+        "summary" : "stake/30sec",
         "description" : "gets 30sec stake history",
         "operationId" : "get_stake_30sec",
         "requestBody" : {
@@ -13864,7 +13864,7 @@
     "/history/stake/5min" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "5min",
+        "summary" : "stake/5min",
         "description" : "gets 5min stake history",
         "operationId" : "get_stake_5min",
         "requestBody" : {
@@ -13925,7 +13925,7 @@
     "/history/stake/sparkline" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "sparkline",
+        "summary" : "stake/sparkline",
         "description" : "gets stake sparklines",
         "operationId" : "get_stake_sparklines",
         "requestBody" : {
@@ -13977,7 +13977,7 @@
     "/history/swap/1day" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1day",
+        "summary" : "swap/1day",
         "description" : "gets 1day order history",
         "operationId" : "get_swap_history_1day",
         "requestBody" : {
@@ -14057,7 +14057,7 @@
     "/history/swap/1hr" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "1hr",
+        "summary" : "swap/1hr",
         "description" : "gets 1hr order history",
         "operationId" : "get_swap_history_1hr",
         "requestBody" : {
@@ -14137,7 +14137,7 @@
     "/history/swap/30sec" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "30sec",
+        "summary" : "swap/30sec",
         "description" : "gets 30sec order history",
         "operationId" : "get_swap_history_30sec",
         "requestBody" : {
@@ -15057,7 +15057,7 @@
     "/history/swap/5min" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "5min",
+        "summary" : "swap/5min",
         "description" : "gets 5min order history",
         "operationId" : "get_swap_history_5min",
         "requestBody" : {
@@ -15242,7 +15242,7 @@
     "/history/swap/init" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "init",
+        "summary" : "swap/init",
         "description" : "gets the initial history",
         "operationId" : "get_swap_history_init",
         "requestBody" : {
@@ -15294,7 +15294,7 @@
     "/history/swap/sparkline" : {
       "post" : {
         "tags" : [ "history" ],
-        "summary" : "sparkline",
+        "summary" : "swap/sparkline",
         "description" : "gets sparklines for order history",
         "operationId" : "get_swap_history_sparklines",
         "requestBody" : {
@@ -20607,7 +20607,7 @@
     "/social/coinbase/info" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "info",
+        "summary" : "coinbase/info",
         "description" : "",
         "operationId" : "oauth_coinbase_info",
         "requestBody" : {
@@ -20656,7 +20656,7 @@
     "/social/coinbase/is-linked" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "is-linked",
+        "summary" : "coinbase/is-linked",
         "description" : "",
         "operationId" : "oauth_coinbase_is_linked",
         "requestBody" : {
@@ -20708,7 +20708,7 @@
     "/social/coinbase/link" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "link",
+        "summary" : "coinbase/link",
         "description" : "",
         "operationId" : "oauth_coinbase_link",
         "requestBody" : {
@@ -20760,7 +20760,7 @@
     "/social/coinbase/login" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "login",
+        "summary" : "coinbase/login",
         "description" : "",
         "operationId" : "oauth_coinbase_login",
         "requestBody" : {
@@ -20809,7 +20809,7 @@
     "/social/coinbase/register" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "register",
+        "summary" : "coinbase/register",
         "description" : "",
         "operationId" : "oauth_coinbase_register",
         "requestBody" : {
@@ -20858,7 +20858,7 @@
     "/social/facebook/info" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "info",
+        "summary" : "facebook/info",
         "description" : "",
         "operationId" : "oauth_facebook_info",
         "requestBody" : {
@@ -20907,7 +20907,7 @@
     "/social/facebook/is-linked" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "is-linked",
+        "summary" : "facebook/is-linked",
         "description" : "",
         "operationId" : "oauth_facebook_is_linked",
         "requestBody" : {
@@ -20959,7 +20959,7 @@
     "/social/facebook/link" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "link",
+        "summary" : "facebook/link",
         "description" : "",
         "operationId" : "oauth_facebook_link",
         "requestBody" : {
@@ -21011,7 +21011,7 @@
     "/social/facebook/login" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "login",
+        "summary" : "facebook/login",
         "description" : "",
         "operationId" : "oauth_facebook_login",
         "requestBody" : {
@@ -21060,7 +21060,7 @@
     "/social/facebook/register" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "register",
+        "summary" : "facebook/register",
         "description" : "",
         "operationId" : "oauth_facebook_register",
         "requestBody" : {
@@ -21109,7 +21109,7 @@
     "/social/github/info" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "info",
+        "summary" : "github/info",
         "description" : "",
         "operationId" : "oauth_github_info",
         "requestBody" : {
@@ -21158,7 +21158,7 @@
     "/social/github/is-linked" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "is-linked",
+        "summary" : "github/is-linked",
         "description" : "",
         "operationId" : "oauth_github_is_linked",
         "requestBody" : {
@@ -21210,7 +21210,7 @@
     "/social/github/link" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "link",
+        "summary" : "github/link",
         "description" : "",
         "operationId" : "oauth_github_link",
         "requestBody" : {
@@ -21262,7 +21262,7 @@
     "/social/github/login" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "login",
+        "summary" : "github/login",
         "description" : "",
         "operationId" : "oauth_github_login",
         "requestBody" : {
@@ -21311,7 +21311,7 @@
     "/social/github/register" : {
       "post" : {
         "tags" : [ "social" ],
-        "summary" : "register",
+        "summary" : "github/register",
         "description" : "",
         "operationId" : "oauth_github_register",
         "requestBody" : {
