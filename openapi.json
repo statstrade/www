@@ -26,7 +26,7 @@
                   "email" : {
                     "type" : "string",
                     "required" : true,
-                    "example" : "ZCAUDATE@OUTLOOK.COM"
+                    "example" : "JOHNSMITH@OUTLOOK.COM"
                   }
                 }
               }
@@ -77,7 +77,7 @@
                   "email" : {
                     "type" : "string",
                     "required" : true,
-                    "example" : "ZCAUDATE@OUTLOOK.COM"
+                    "example" : "JOHNSMITH@OUTLOOK.COM"
                   }
                 }
               }
@@ -128,7 +128,7 @@
                   "nickname" : {
                     "type" : "string",
                     "required" : true,
-                    "example" : "ZCAUDATE"
+                    "example" : "JOHNSMITH"
                   }
                 }
               }
@@ -179,7 +179,7 @@
                   "nickname" : {
                     "type" : "string",
                     "required" : true,
-                    "example" : "ZCAUDATE"
+                    "example" : "JOHNSMITH"
                   }
                 }
               }
@@ -238,7 +238,7 @@
                       "email" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE@OUTLOOK.COM"
+                        "example" : "JOHNSMITH@OUTLOOK.COM"
                       },
                       "password" : {
                         "type" : "string",
@@ -248,7 +248,7 @@
                       "nickname" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE"
+                        "example" : "JOHNSMITH"
                       },
                       "profile" : {
                         "type" : "object",
@@ -299,7 +299,7 @@
                         "user_account" : [ {
                           "site_terms_id" : "00000000-0000-0000-0000-000000000000",
                           "is_official" : false,
-                          "nickname" : "ZCAUDATE",
+                          "nickname" : "JOHNSMITH",
                           "time_updated" : 1684513862597913,
                           "is_active" : true,
                           "is_verified" : true,
@@ -324,7 +324,7 @@
                       "msg_id" : "8af1af5b-f662-11ed-9b18-7df9fd3c030b",
                       "mq_partition" : "main",
                       "meta" : {
-                        "email" : "ZCAUDATE@OUTLOOK.COM",
+                        "email" : "JOHNSMITH@OUTLOOK.COM",
                         "last_name" : "Zheng",
                         "first_name" : "Chris",
                         "time_updated" : 1684513862597913,
@@ -573,7 +573,7 @@
                       "is_verified" : true,
                       "id" : "bb2580ec-09f7-42e6-be8b-69b4617eb031",
                       "is_public" : false,
-                      "value" : "ZCAUDATE@OUTLOOK.COM",
+                      "value" : "JOHNSMITH@OUTLOOK.COM",
                       "is_primary" : true,
                       "time_created" : 1684513885551861,
                       "account_id" : "35639174-d2a0-4557-bf87-59e55d0deb8a"
@@ -642,7 +642,7 @@
                       "is_verified" : true,
                       "id" : "9f9a812f-a64b-44f7-97d0-e5bcfc8b4d0c",
                       "is_public" : false,
-                      "value" : "ZCAUDATE@OUTLOOK.COM",
+                      "value" : "JOHNSMITH@OUTLOOK.COM",
                       "is_primary" : true,
                       "time_created" : 1684513885583744,
                       "account_id" : "3c29243d-9f33-477e-9326-1a237cf54af6"
@@ -869,7 +869,7 @@
                           "is_verified" : true,
                           "id" : "1cbc5172-7f83-45c8-9aa0-49450bc5de24",
                           "is_public" : false,
-                          "value" : "ZCAUDATE@OUTLOOK.COM",
+                          "value" : "JOHNSMITH@OUTLOOK.COM",
                           "is_primary" : false,
                           "time_created" : 1684513885618080,
                           "account_id" : "50e8d66c-edf6-4550-aa9a-38e612a3f6ac"
@@ -908,7 +908,7 @@
                       "email" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE@OUTLOOK.COM"
+                        "example" : "JOHNSMITH@OUTLOOK.COM"
                       },
                       "code" : {
                         "type" : "string",
@@ -948,7 +948,7 @@
                       "sync" : {
                         "user_account" : [ {
                           "is_super" : false,
-                          "nickname" : "ZCAUDATE",
+                          "nickname" : "JOHNSMITH",
                           "is_verified" : true,
                           "id" : "503db435-252d-4399-b506-3e4cb4f0e97b"
                         } ]
@@ -956,7 +956,7 @@
                       "msg_id" : "8af1af46-f662-11ed-9b18-7df9fd3c030b",
                       "mq_partition" : "main",
                       "meta" : {
-                        "email" : "ZCAUDATE@OUTLOOK.COM",
+                        "email" : "JOHNSMITH@OUTLOOK.COM",
                         "last_name" : "Zheng",
                         "first_name" : "Chris",
                         "account_id" : "503db435-252d-4399-b506-3e4cb4f0e97b",
@@ -997,7 +997,7 @@
                       "email" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE@OUTLOOK.COM"
+                        "example" : "JOHNSMITH@OUTLOOK.COM"
                       }
                     }
                   },
@@ -1035,7 +1035,7 @@
                     "status" : "success",
                     "data" : {
                       "mq_return" : {
-                        "email" : "ZCAUDATE@OUTLOOK.COM"
+                        "email" : "JOHNSMITH@OUTLOOK.COM"
                       },
                       "mq_bulk" : [ {
                         "op_tag" : "user.account/verification-resend",
@@ -1049,7 +1049,7 @@
                         "msg_id" : "8af1af4f-f662-11ed-9b18-7df9fd3c030b",
                         "mq_partition" : "main",
                         "meta" : {
-                          "email" : "ZCAUDATE@OUTLOOK.COM",
+                          "email" : "JOHNSMITH@OUTLOOK.COM",
                           "last_name" : "Zheng",
                           "first_name" : "Chris",
                           "account_id" : "33fc244c-6cc4-4d4f-9a2c-1fdf1c8835e3",
@@ -1692,7 +1692,7 @@
                       "value" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE"
+                        "example" : "JOHNSMITH"
                       },
                       "type" : {
                         "type" : "string",
@@ -1733,7 +1733,7 @@
                         "time_updated" : 1684513880518363,
                         "detail" : { },
                         "id" : "d0c55bca-ddf6-4287-97af-eab9c0bfdf50",
-                        "value" : "ZCAUDATE",
+                        "value" : "JOHNSMITH",
                         "op_created" : "9608ea86-f662-11ed-9b18-7df9fd3c030b",
                         "op_updated" : "9608ea86-f662-11ed-9b18-7df9fd3c030b",
                         "type" : "GITHUB",
@@ -1743,7 +1743,7 @@
                       "msg_id" : "9608ea89-f662-11ed-9b18-7df9fd3c030b",
                       "mq_partition" : "a875abeb-0fc4-44ca-a970-f4960a8bb650",
                       "meta" : {
-                        "email" : "ZCAUDATE@OUTLOOK.COM",
+                        "email" : "JOHNSMITH@OUTLOOK.COM",
                         "last_name" : "Zheng",
                         "first_name" : "Chris",
                         "account_id" : "a875abeb-0fc4-44ca-a970-f4960a8bb650",
@@ -1882,7 +1882,7 @@
                       "email" : {
                         "type" : "string",
                         "required" : true,
-                        "example" : "ZCAUDATE@OUTLOOK.COM"
+                        "example" : "JOHNSMITH@OUTLOOK.COM"
                       }
                     }
                   },
@@ -1914,7 +1914,7 @@
                     "status" : "success",
                     "data" : {
                       "mq_return" : {
-                        "email" : "ZCAUDATE@OUTLOOK.COM"
+                        "email" : "JOHNSMITH@OUTLOOK.COM"
                       },
                       "mq_bulk" : [ {
                         "op_tag" : "user.account/password-reset-request",
@@ -1928,7 +1928,7 @@
                         "msg_id" : "8af1af67-f662-11ed-9b18-7df9fd3c030b",
                         "mq_partition" : "main",
                         "meta" : {
-                          "email" : "ZCAUDATE@OUTLOOK.COM",
+                          "email" : "JOHNSMITH@OUTLOOK.COM",
                           "last_name" : "Zheng",
                           "first_name" : "Chris",
                           "account_id" : "3af56655-c82a-445e-bdb6-e7a180d82cd4",
