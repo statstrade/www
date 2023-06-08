@@ -18,14 +18,17 @@ const config = {
 
   presets: [
     [
-      "docusaurus-preset-openapi",
+      "classic",
       /** @type {import('docusaurus-preset-openapi').Options} */
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your rep|o.
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          docLayoutComponent: "@theme/DocPage",
+          docItemComponent: "@theme/ApiItem" // Derived from docusaurus-theme-openapi-docs
         },
         blog: {
           showReadingTime: true,
@@ -39,7 +42,23 @@ const config = {
       }),
     ],
   ],
-    plugins: [// ....
+    plugins: [
+     [
+       'docusaurus-plugin-openapi-docs',
+       {
+         id: "apiDocs",
+         docsPluginId: "classic",
+         config: {
+           apiDocs: { // Note: petstore key is treated as the <id> and can be used to specify an API doc instance when using CLI commands
+             specPath: "openapi.yaml", // Path to designated spec file
+             outputDir: "api/classic", // Output directory for generated .mdx docs
+             sidebarOptions: {
+               groupPathsBy: "tag",
+             },
+           }
+         }
+       },
+     ],
                   async function myPlugin(context, options) {
                     return {
                       name: "docusaurus-tailwindcss",
@@ -59,7 +78,6 @@ const config = {
     locales: ["en", "he", "zh"],
   },
   themeConfig:
-    /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({navbar: {
         title: "",
         logo: {
@@ -111,7 +129,11 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-            ],
+			  {
+                label: "GitHub",
+                href: "https://github.com/statstrade",
+              }
+            ]
           },
           /*
           {
@@ -134,10 +156,7 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/statstrade",
-              },
+              
             ],
           },*/
         ],

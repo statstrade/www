@@ -8,6 +8,7 @@
     "autoprefixer": "^10.4.2",
     "clsx": "^1.1.1",
     "daisyui": "^2.6.0",
+    "docusaurus-plugin-openapi-docs": "^1.7.3",
     "docusaurus-preset-openapi": "0.6.3",
     "postcss": "^8.4.7",
     "postcss-preset-env": "^8.3.2",
