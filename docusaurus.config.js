@@ -141,7 +141,7 @@ const config = {
             ],
           },*/
         ],
-          copyright: `Copyright © ${new Date().getFullYear()} Tahto Group Co Ltd.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Greenways Road Holdings Pty Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,
